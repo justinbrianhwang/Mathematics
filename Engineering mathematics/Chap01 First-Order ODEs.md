@@ -1,4 +1,97 @@
 [In English]
+# Finding the Exact Differential Equation
+
+Consider a function \(u(x, y)\) consisting of two variables. The total differential of the function \(u\) is defined as follows:
+
+$$
+du(x, y) = \frac{\partial u}{\partial x}dx + \frac{\partial u}{\partial y}dy
+$$
+
+Now, let’s represent a part of the **total differential equation** as functions. Let \(M(x, y) = \frac{\partial u}{\partial x}\) and \(N(x, y) = \frac{\partial u}{\partial y}\). Since \(M\) and \(N\) are partial derivatives of \(u\) with respect to \(x\) and \(y\) respectively, the following equation holds true when they are partially differentiated again with respect to \(y\) and \(x\):
+
+$$
+\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}
+$$
+
+If the above equation holds, it is called an exact differential equation. To solve for \(u\), integrate \(M\) and \(N\) with respect to \(x\) and \(y\) respectively and ensure that the two results match.
+
+## Integrating Factor
+
+If the equation is:
+
+$$
+\frac{\partial M}{\partial y} \not= \frac{\partial N}{\partial x}
+$$
+
+How do we solve it? This is where the concept of an integrating factor comes in. Let’s consider an arbitrary function \(F\) that makes the above equation hold true. Although \(F(x, y)\) is originally a function of both \(x\) and \(y\), for convenience, we will assume it to be a function of \(x\) only. 
+
+Since \(F\) is assumed to be a function of \(x\), its partial derivative with respect to \(y\) is 0. Using this, we can rewrite the equation by including \(F\):
+
+$$
+\frac{\partial}{\partial y}(MF) = \frac{\partial}{\partial x} (NF)
+$$
+
+This implies that there exists an integrating factor that makes the equation exact. Let’s rearrange the equation:
+
+$$
+M_y F + MF_y = N_x F + NF_x
+$$
+
+Since \(F_y = 0\), the equation simplifies to:
+
+$$
+M_y F = N_x F + NF_x
+$$
+
+Rearrange to solve for \(F\):
+
+$$
+(M_y - N_x) F = NF_x 
+$$
+
+$$
+\frac{M_y - N_x}{N} = \frac{1}{F} \cdot F_x
+$$
+
+$$
+\ln(F) = \text{integrated form}
+$$
+
+Through this process, we can find \(F\) and use it to simplify and solve the original equation.
+
+---
+
+$$
+y' + p(x) y = r(x) 
+$$
+
+## Linear ODEs
+
+### Homogeneous ODEs
+
+When \(r(x) = 0\), the equation is homogeneous. To find \(y(x)\), use the following:
+
+$$
+y(x) = ce^{ - h}, \quad h(x) = \int p(x) dx
+$$
+
+### Nonhomogeneous ODEs
+
+When \(r(x) \neq 0\), the equation is nonhomogeneous. To find \(y(x)\), use:
+
+$$
+y(x) = e^{-h} \left( \int e^{h}r dx + c \right) , \quad h(x) = \int p(x) dx
+$$
+
+## Non-Linear ODEs
+
+For non-linear ODEs, use the Bernoulli method. Consider modifying the equation as follows:
+
+$$
+y' + p(x) y = r(x) y^a
+$$
+
+If \(a = 1\) or \(a = 0\), it falls under the linear ODEs discussed above. Otherwise, it is non-linear. Introduce a new variable \(j = [y]^{1-a}\). Then find \(j'\) and rewrite the equation in terms of \(j\). Using the Bernoulli method, non-linear ODEs can be transformed into linear ODEs, which can then be solved using the methods described above.
 
 
 [In korean]
