@@ -8,3 +8,7 @@ This is a repository that organizes mathematical concepts necessary for engineer
 📗 Probability and Statistics
 
 📕 Probability and Random Variables
+
+📒 Discrete Mathematics
+
+📔 Introduction to Statistics
