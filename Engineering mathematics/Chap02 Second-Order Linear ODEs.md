@@ -1,4 +1,4 @@
-[In english]
+[In English]
 # Second-Order Ordinary Differential Equations
 
 Consider the second-order ODE:
@@ -150,7 +150,7 @@ This formula helps solve nonhomogeneous differential equations.
 By following these steps and methods, you can solve both homogeneous and nonhomogeneous second-order ODEs efficiently.
 
 
-[In korean]
+[In Korean]
 # 이계 상미분 방정식
 
 이계 상미분 방정식은 다음과 같이 주어진다:
@@ -302,4 +302,3 @@ $$
 ---
 
 이와 같은 방법을 따르면 동차 및 비동차 이계 상미분 방정식을 효율적으로 풀 수 있다.
-
