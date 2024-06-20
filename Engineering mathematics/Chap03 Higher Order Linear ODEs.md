@@ -82,7 +82,7 @@ $$
 The rest requires knowledge of linear algebra.
 
 
-[In korean]
+[In Korean]
 # 고계 미분 방정식
 
 고계 미분 방정식은 다음과 같은 형태를 가진다:
