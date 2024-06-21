@@ -1,4 +1,5 @@
 [in English]
+
 # Laplace Transform
 
 There is a reason I didn't explain much in the previous chapters. This is because once we deal with the Laplace transform, the previous concepts might seem less significant due to the powerful nature of the Laplace transform.
@@ -7,22 +8,19 @@ First, before dealing with the Laplace transform, we need to think fundamentally
 
 $$ y'' + ay' + by = r $$
 
-When we see this equation, we know it takes the form of $ e^{\lambda x} $. By substituting this form, we solved the characteristic equation. Is this the same way we've been solving problems? Not exactly. We used a specific method to neatly find the answer, but this method involved prediction.
+When we see this equation, we know it takes the form of $e^{\lambda x}$. By substituting this form, we solved the characteristic equation. Is this the same way we've been solving problems? Not exactly. We used a specific method to neatly find the answer, but this method involved prediction.
 
 The Laplace transform, however, solves without prediction. So, what method is this? Let's look into it.
 
 But before we delve into it, let's establish a few basic premises:
 
-1. We live in a world where 'time' is fundamental. Most physical equations are fundamentally based on time. Therefore, we will use the variable $ t $ to represent time, instead of the mathematical variable $ x $.
-2. The basic idea of the Laplace transform is to change dimensions.
-   Laplace Transform: $ t \rightarrow s $
-   Inverse Laplace Transform: $ s \rightarrow t $
-   It is an interaction between the time dimension $ t $ of our world and the dimension $ s $ which has no particular meaning.
+1. We live in a world where 'time' is fundamental. Most physical equations are fundamentally based on time. Therefore, we will use the variable $t$ to represent time, instead of the mathematical variable $x$.
+2. The basic idea of the Laplace transform is to change dimensions. Laplace Transform: $t \rightarrow s$ Inverse Laplace Transform: $s \rightarrow t$ It is an interaction between the time dimension $t$ of our world and the dimension $s$ which has no particular meaning.
 3. The formula for the Laplace transform is as follows:
 
-$$
-\mathcal{L} \{ f(t) \} = \int_{0}^{\infty} e^{-st} f(t) \, dt
-$$
+   $$
+   \mathcal{L} \{ f(t) \} = \int_{0}^{\infty} e^{-st} f(t) \, dt
+   $$
 
 4. You must memorize the transform forms of famous functions. The forms are as follows:
 
@@ -121,7 +119,6 @@ $$
 $$
 
 Using these methods, we can solve problems. It is essential to see the process of solving problems, as just understanding the concepts is not enough.
-
 
 
 [in korean]
