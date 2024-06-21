@@ -1,3 +1,129 @@
+[in English]
+# Laplace Transform
+
+There is a reason I didn't explain much in the previous chapters. This is because once we deal with the Laplace transform, the previous concepts might seem less significant due to the powerful nature of the Laplace transform.
+
+First, before dealing with the Laplace transform, we need to think fundamentally. Have we ever predicted the form of the roots and solved the problem in mathematics before? For instance, consider the equation:
+
+$$ y'' + ay' + by = r $$
+
+When we see this equation, we know it takes the form of $ e^{\lambda x} $. By substituting this form, we solved the characteristic equation. Is this the same way we've been solving problems? Not exactly. We used a specific method to neatly find the answer, but this method involved prediction.
+
+The Laplace transform, however, solves without prediction. So, what method is this? Let's look into it.
+
+But before we delve into it, let's establish a few basic premises:
+
+1. We live in a world where 'time' is fundamental. Most physical equations are fundamentally based on time. Therefore, we will use the variable $ t $ to represent time, instead of the mathematical variable $ x $.
+2. The basic idea of the Laplace transform is to change dimensions.
+   Laplace Transform: $ t \rightarrow s $
+   Inverse Laplace Transform: $ s \rightarrow t $
+   It is an interaction between the time dimension $ t $ of our world and the dimension $ s $ which has no particular meaning.
+3. The formula for the Laplace transform is as follows:
+
+   $$
+   \mathcal{L} \{ f(t) \} = \int_{0}^{\infty} e^{-st} f(t) \, dt
+   $$
+
+4. You must memorize the transform forms of famous functions. The forms are as follows:
+
+    |              $t$ |               $s$ |
+    | ---------------- | ----------------- |
+    |            $e^{at}$ |              $\frac{1}{s - a}$ |
+    |             $1$ |                 $\frac{1}{s}$ |
+    |              $t$ |               $\frac{1}{s^2}$ |
+    |             $t^2$ |                $\frac{2}{s^3}$ |
+    |              $t^n$ |             $\frac{n!}{s^{n+1}}$ |
+    |        $\sin (kt)$ |           $\frac{k}{k^2 + s^2}$ |
+    |        $\cos (kt)$ |           $\frac{s}{s^2 + k^2}$ |
+    |        $\sinh (kt)$ |          $\frac{k}{s^2 - k^2}$ |
+    |        $\cosh (kt)$ |          $\frac{s}{s^2 - k^2}$ |
+
+5. The Laplace transform is linear. This is possible because it is defined as an integral. Let's see the following:
+
+$$
+\mathcal{L}\{ af(t) + bg(t)\} = a \mathcal{L} \{ f(t)\} + b \mathcal{L} \{ g(t) \} = a F(s) + b G(s)
+$$
+
+These five principles are essential. We will use them to organize more advanced concepts.
+
+## The 1st Push Method
+
+This is a name I came up with. If you think about the meaning of the word "push," it implies to push out. Consider the following concept.
+
+$$ e^{ax} \sin x $$
+
+It would be very complicated to calculate the Laplace transform of the above product function using the formula. It would involve integration by parts, which can be tedious. If you master the method I introduce and use it appropriately, it will be helpful.
+
+$$ \mathcal{L} \{ e^{ax} f(t) \} $$
+
+In cases where it is arranged in this form, it can be simplified as follows:
+
+$$ \mathcal{L} \{e^{ax} f(x)\} = F(s-a) $$
+
+This is an obvious logic, but you may not have thought of it. I will not prove this method separately. Just remember the concept of "pushing out." We will apply this method in problem-solving later.
+
+## The 2nd Push Method
+
+This method uses the unit step function. Let's first look at the concept of the unit step function.
+
+$$
+u(t) = \begin{cases} 
+0 & (t < 0) \\ 
+1 & (t \geq 0) 
+\end{cases}
+$$
+
+The shifted form is as follows:
+
+$$
+u(t-a) = \begin{cases} 
+0 & (t < a) \\ 
+1 & (t \geq a) 
+\end{cases}
+$$
+
+The Laplace transforms of these functions are:
+
+$$
+\mathcal{L} \{ u(t) \} = \frac{1}{s}, \quad \mathcal{L} \{ u(t-a) \} = \frac{e^{-as}}{s}
+$$
+
+Using this function, the 2nd Push Method is applied as follows:
+
+$$
+\mathcal{L} \{ f(t-a)u(t-a) \} = e^{-as} F(s)
+$$
+
+## Laplace Transform of Functions
+
+Now we will transform functions using the Laplace transform. Let's look at the following:
+
+$$
+\mathcal{L} \{ f(t) \} = \int_{0}^{\infty} e^{-st} f(t) \, dt = F(s)
+$$
+
+Now consider
+
+$$
+\mathcal{L} \{ f'(t) \} = \int_{0}^{\infty} e^{-st} f'(t) \, dt
+$$
+
+What happens here? This can be proved using integration by parts. Skipping the proof, the result is as follows:
+
+$$
+\mathcal{L} \{ f'(t) \} = sF(s) - f(0)
+$$
+
+This formula can be derived through integration by parts. Generalizing this gives us:
+
+$$
+\mathcal{L} \{ f^{(n)}(t) \} = s^{n}F(s) - s^{n-1}f(0) - s^{n-2} f'(0) - \cdots - sf^{(n-1)} (0) - f^{(n-1)}(0)
+$$
+
+Using these methods, we can solve problems. It is essential to see the process of solving problems, as just understanding the concepts is not enough.
+
+
+
 [in korean]
 
 # 라플라스 변환
