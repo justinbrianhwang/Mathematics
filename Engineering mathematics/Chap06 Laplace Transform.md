@@ -20,9 +20,9 @@ But before we delve into it, let's establish a few basic premises:
    It is an interaction between the time dimension $ t $ of our world and the dimension $ s $ which has no particular meaning.
 3. The formula for the Laplace transform is as follows:
 
-   $$
-   \mathcal{L} \{ f(t) \} = \int_{0}^{\infty} e^{-st} f(t) \, dt
-   $$
+$$
+\mathcal{L} \{ f(t) \} = \int_{0}^{\infty} e^{-st} f(t) \, dt
+$$
 
 4. You must memorize the transform forms of famous functions. The forms are as follows:
 
