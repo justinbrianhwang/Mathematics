@@ -1,7 +1,7 @@
 [In English]
 # Finding the Exact Differential Equation
 
-Consider a function \(u(x, y)\) consisting of two variables. The total differential of the function \(u\) is defined as follows:
+Consider a function $u(x, y)$ consisting of two variables. The total differential of the function \(u\) is defined as follows:
 
 $$
 du(x, y) = \frac{\partial u}{\partial x}dx + \frac{\partial u}{\partial y}dy
