@@ -56,21 +56,21 @@ The characteristic equation $\lambda^2 + a\lambda + b = 0$ can be solved using t
 
 - **Case 1**: Discriminant is positive (two distinct real roots)
 
-  $$
-  y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x}
-  $$
+$$
+y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x}
+$$
 
 - **Case 2**: Discriminant is zero (repeated roots)
 
-  $$
-  y(x) = (c_1 + c_2 x)e^{-\frac{a}{2}x}
-  $$
+$$
+y(x) = (c_1 + c_2 x)e^{-\frac{a}{2}x}
+$$
 
 - **Case 3**: Discriminant is negative (complex roots)
 
-  $$
-  y(x) = e^{-\frac{a}{2}x} (A \cos \omega x + B \sin \omega x)
-  $$
+$$
+y(x) = e^{-\frac{a}{2}x} (A \cos \omega x + B \sin \omega x)
+$$
 
     where $\lambda = -\frac{a}{2} \pm i \omega$ and $\omega^2 = b - \frac{1}{4}a^2.
 
@@ -84,23 +84,23 @@ $$
 
 Assume the general solution $y = x^m$. Substituting this into the equation, we get the characteristic equation:
 
-    $$
-    x^m (m^2 +(a-1)m + b) = 0
-    $$
+$$
+x^m (m^2 +(a-1)m + b) = 0
+$$
 
 The characteristic equation $m^2 +(a-1)m + b = 0$ can be solved using the discriminant.
 
 - **Case 1**: Discriminant is positive (two distinct real roots)
 
-    $$
-    y(x) = c_1 x^{m_1} + c_2 x^{m_2}
-    $$
+$$
+y(x) = c_1 x^{m_1} + c_2 x^{m_2}
+$$
 
 - **Case 2**: Discriminant is zero (repeated roots)
 
-    $$
-    y(x) = (c_1 + c_2 \ln x)x^m , \quad (m = \frac{1}{2}(1-a))
-    $$
+$$
+y(x) = (c_1 + c_2 \ln x)x^m , \quad (m = \frac{1}{2}(1-a))
+$$
 
 - **Case 3**: Discriminant is negative (complex roots)
 
@@ -208,21 +208,21 @@ $$
 
 - **첫 번째 케이스**: 판별식이 양수일 때 (서로 다른 두 실근)
 
-    $$
-    y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x}
-    $$
+$$
+y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x}
+$$
 
 - **두 번째 케이스**: 판별식이 0일 때 (중근일 때)
 
-    $$
-    y(x) = (c_1 + c_2 x)e^{-\frac{a}{2}x}
-    $$
+$$
+y(x) = (c_1 + c_2 x)e^{-\frac{a}{2}x}
+$$
 
 - **세 번째 케이스**: 판별식이 음수일 때 (서로 다른 두 허근)
 
-    $$
-    y(x) = e^{-\frac{a}{2}x} (A \cos \omega x + B \sin \omega x)
-    $$
+$$
+y(x) = e^{-\frac{a}{2}x} (A \cos \omega x + B \sin \omega x)
+$$
 
     여기서 $\lambda = -\frac{a}{2} \pm i \omega$, $\omega^2 = b - \frac{1}{4}a^2.
 
@@ -244,15 +244,15 @@ $$
 
 - **첫 번째 케이스**: 판별식이 양수일 때 (서로 다른 두 실근)
 
-    $$
-    y(x) = c_1 x^{m_1} + c_2 x^{m_2}
-    $$
+$$
+y(x) = c_1 x^{m_1} + c_2 x^{m_2}
+$$
 
 - **두 번째 케이스**: 판별식이 0일 때 (중근일 때)
 
-    $$
-    y(x) = (c_1 + c_2 \ln x)x^m , \quad (m = \frac{1}{2}(1-a))
-    $$
+$$
+y(x) = (c_1 + c_2 \ln x)x^m , \quad (m = \frac{1}{2}(1-a))
+$$
 
 - **세 번째 케이스**: 판별식이 음수일 때 (서로 다른 두 허근)
 
