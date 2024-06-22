@@ -224,7 +224,8 @@ $$
 y(x) = e^{-\frac{a}{2}x} (A \cos \omega x + B \sin \omega x)
 $$
 
-    여기서 $\lambda = -\frac{a}{2} \pm i \omega$, $\omega^2 = b - \frac{1}{4}a^2.
+여기서 $\lambda = -\frac{a}{2} \pm i \omega$, $\omega^2 = b - \frac{1}{4}a^2$.
+
 
 ### 오일러-코시 방정식
 
