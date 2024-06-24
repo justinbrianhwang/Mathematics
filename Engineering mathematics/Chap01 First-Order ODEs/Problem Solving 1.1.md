@@ -86,7 +86,7 @@
     
 7. $y' = \cosh (5.13x)$
     
-    ↔ $y = \int \cosh (5.13x) \, dx$
+    ↔ $y = \int \cosh (5.13x) dx$
     
     $= \frac{1}{5.13} \sinh (5.13x) + C$
     
