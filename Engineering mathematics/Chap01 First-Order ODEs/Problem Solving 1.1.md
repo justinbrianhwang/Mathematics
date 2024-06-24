@@ -140,4 +140,37 @@
 
     [graph]
     
-   
+10. Differential Equation Solution Verification and Initial Value Problem
+
+    Given Differential Equation
+    $y' + 5xy = 0$
+
+    Proposed Solution
+    $y = ce^{-2.5x^2}$
+
+    Verification
+    First, let's verify if the proposed solution satisfies the differential equation:
+
+    Given:
+    $y = ce^{-2.5x^2}$
+
+    Taking the derivative of $y$:
+    $y' = -5x c e^{-2.5x^2}$
+
+    Now, substitute $y$ and $y'$ back into the differential equation $y' + 5xy$:
+    $y' + 5xy = -5x ce^{-2.5x^2} + 5x ce^{-2.5x^2}$
+    $y' + 5xy = -5x ce^{-2.5x^2} + 5x ce^{-2.5x^2} = 0$
+
+    Thus, the proposed solution satisfies the differential equation.
+
+    Initial Value Problem (IVP)
+    Given the initial condition $y(0) = \pi$, we can find the constant $c$:
+
+    $y(0) = \pi$
+    $\pi = c \cdot 1$
+    $c = \pi$
+
+    Final Solution
+    Therefore, the solution to the IVP is:
+    $y = \pi e^{-2.5x^2}$
+
