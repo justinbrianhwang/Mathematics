@@ -208,4 +208,42 @@
     Therefore, the solution to the IVP is:
     $y = (x + \frac{1}{2})e^x$
 
+12. Differential Equation Solution Verification and Initial Value Problem
+
+    Given Differential Equation
+    $yy' = 4x$
+
+    Proposed Solution
+    $y^2 - 4x^2 = c$  ($y > 0$)
+
+    Verification
+    First, let's verify if the proposed solution satisfies the differential equation:
+
+    Given:
+    $y^2 = 4x^2 + c$
+
+    Taking the derivative of $y^2$:
+    $(y^2)' = (4x^2 + c)'$
+
+    This results in:
+    $2yy' = 8x$
+
+    Simplifying, we get:
+    $yy' = 4x$
+
+    Thus, the proposed solution satisfies the differential equation.
+
+    Initial Value Problem (IVP)
+    Given the initial condition $y(1) = 4$, we can find the constant $c$:
+
+    Substitute $x = 1$ and $y = 4$ into the proposed solution:
+    $4^2 = 4 \cdot 1^2 + c$
+    $16 = 4 + c$
+    $c = 12$
+
+    Final Solution
+    Therefore, the solution to the IVP is:
+    $y^2 - 4x^2 = 12$
+
+
 
