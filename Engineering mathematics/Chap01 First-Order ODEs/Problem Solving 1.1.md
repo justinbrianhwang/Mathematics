@@ -245,5 +245,38 @@
     Therefore, the solution to the IVP is:
     $y^2 - 4x^2 = 12$
 
+13. Differential Equation Solution Verification and Initial Value Problem
+
+  Given Differential Equation
+  $y' = y - y^2$
+
+  Proposed Solution
+  $y = \frac{1}{1 + ce^{-x}}$
+
+  Verification
+  First, let's verify if the proposed solution satisfies the differential equation:
+
+  Given:
+  $y = \frac{1}{1 + ce^{-x}}$
+
+  Taking the derivative of $y$:
+  $y' = \frac{-1 \cdot (-ce^{-x})}{(1 + ce^{-x})^2} = \frac{ce^{-x}}{(1 + ce^{-x})^2}$
+
+  Now, substitute $y$ and $y'$ back into the differential equation $y' = y - y^2$:
+  $y - y^2 = \frac{1}{1 + ce^{-x}} - \left(\frac{1}{1 + ce^{-x}}\right)^2 = \frac{1}{1 + ce^{-x}} - \frac{1}{(1 + ce^{-x})^2} = \frac{ce^{-x}}{(1 + ce^{-x})^2}$
+
+  Thus, the proposed solution satisfies the differential equation.
+
+  Initial Value Problem (IVP)
+  Given the initial condition $y(0) = 0.25$, we can find the constant $c$:
+
+  Substitute $x = 0$ and $y = 0.25$ into the proposed solution:
+  $\frac{1}{1 + c} = 0.25$
+  $1 + c = 4$
+  $c = 3$
+
+  Final Solution
+  Therefore, the solution to the IVP is:
+  $y = \frac{1}{1 + 3e^{-x}}$
 
 
