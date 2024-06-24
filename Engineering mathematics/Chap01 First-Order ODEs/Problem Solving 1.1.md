@@ -4,7 +4,7 @@
     
     ↔ $y' = -2\sin 2 \pi x$
     
-    ↔ $y = -2 \int \sin 2\pi x \, dx$
+    ↔ $y = -2 \int \sin 2\pi x dx$
     
     ↔ $y = -2 \left[ -\frac{1}{2 \pi} \cos 2 \pi x +C \right]$
     
@@ -14,7 +14,7 @@
     
     ↔ $y' = -x e^{-x^2 / 2}$
     
-    ↔ $y = - \int x e^{-x^2 / 2} \, dx$
+    ↔ $y = - \int x e^{-x^2 / 2}  dx$
     
     ↔ $y = - \left[ -e^{-x^2 / 2} + C \right]$
     
@@ -24,9 +24,9 @@
     
     ↔ $\frac{dy}{dx} = y$
     
-    ↔ $\frac{1}{y} \, dy = dx$
+    ↔ $\frac{1}{y}  dy = dx$
     
-    ↔ $\int \frac{1}{y} \, dy = \int \, dx$
+    ↔ $\int \frac{1}{y}  dy = \int  dx$
     
     ↔ $\ln |y| = x + C$
     
@@ -38,7 +38,7 @@
     
     ↔ $\frac{dy}{dx} = -1.5 y$
     
-    ↔ $\frac{1}{y} \, dy = -1.5 \, dx$
+    ↔ $\frac{1}{y}  dy = -1.5  dx$
     
     ↔ $\ln |y| = -1.5x + C$
     
@@ -48,23 +48,23 @@
     
 5. $y' = 4e^{-x} \cos x$
     
-    ↔ $y = \int 4e^{-x } \cos x \, dx$ 
+    ↔ $y = \int 4e^{-x } \cos x  dx$ 
     
     Consider $e^{-x}$ as the part to be integrated and $\cos x$ as the part to be differentiated.
     
-    $\int 4 e^{-x} \cos x \, dx = 4 \left[ -e^{-x} \cos x - \int -e^{-x} (-\sin x) \, dx \right]$
+    $\int 4 e^{-x} \cos x  dx = 4 \left[ -e^{-x} \cos x - \int -e^{-x} (-\sin x) dx \right]$
     
-    ↔ $\int e^{-x} \sin x \, dx = -e^{-x} \sin x - \int -e^{-x} \cos x \, dx$ 
+    ↔ $\int e^{-x} \sin x  dx = -e^{-x} \sin x - \int -e^{-x} \cos x  dx$ 
     
-    $= -e^{-x} \sin x + \int e^{-x} \cos x \, dx$  
+    $= -e^{-x} \sin x + \int e^{-x} \cos x  dx$  
     
-    ∴ $4 \int e^{-x} \cos x \, dx = - 4e^{-x} \cos x -4 \left( -e^{-x} \sin x + \int e^{-x} \cos x \, dx  \right)$
+    ∴ $4 \int e^{-x} \cos x dx = - 4e^{-x} \cos x -4 \left( -e^{-x} \sin x + \int e^{-x} \cos x dx  \right)$
     
-    $-4e^{-x} \cos x + 4e^{-x} \sin x - 4 \int e^{-x} \cos x \, dx + C$
+    $-4e^{-x} \cos x + 4e^{-x} \sin x - 4 \int e^{-x} \cos x  dx + C$
     
-    ↔ $8 \int e^{-x} \cos x \, dx = 4 e^{-x} \left(\sin x  - \cos x\right) + C$
+    ↔ $8 \int e^{-x} \cos x  dx = 4 e^{-x} \left(\sin x  - \cos x\right) + C$
     
-    ↔ $4 \int e^{-x} \cos x \, dx = 2 e^{-x} \left(\sin x  - \cos x\right) + C$
+    ↔ $4 \int e^{-x} \cos x  dx = 2 e^{-x} \left(\sin x  - \cos x\right) + C$
     
     ⇒  $y = 2e^{-x} \left( \sin x - \cos x \right) + C$
     
@@ -74,7 +74,7 @@
     
     ↔ $y' \frac{dy'}{dx} = -y \frac{dy}{dx}$
     
-    ↔ $y' \, dy' = - y \, dy$
+    ↔ $y'  dy' = - y dy$
     
     ↔ $\frac{1}{2} \left( y^2 + y'^2 \right) = C$
     
