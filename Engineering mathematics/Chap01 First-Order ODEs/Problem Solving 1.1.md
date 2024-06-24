@@ -279,4 +279,41 @@
     Therefore, the solution to the IVP is:
     $y = \frac{1}{1 + 3e^{-x}}$
 
+14. Differential Equation Solution Verification and Initial Value Problem
+
+    Given Differential Equation
+    $y' \tan x = 2y - 8$
+
+    Proposed Solution
+    $y = c \sin^2 x + 4$
+
+    Verification
+    First, let's verify if the proposed solution satisfies the differential equation:
+
+    Given:
+    $y = c \sin^2 x + 4$
+
+    Taking the derivative of $y$:
+    $y' = 2c \sin x \cos x$
+
+    Now, substitute $y$ and $y'$ back into the differential equation $y' \tan x = 2y - 8$:
+    $y' \tan x = 2c \sin x \cos x \cdot \frac{\sin x}{\cos x} = 2c \sin^2 x$
+
+    For the right-hand side:
+    $2y - 8 = 2(c \sin^2 x + 4) - 8 = 2c \sin^2 x + 8 - 8 = 2c \sin^2 x$
+
+    Thus, the proposed solution satisfies the differential equation.
+
+    Initial Value Problem (IVP)
+    Given the initial condition $y\left(\frac{1}{2} \pi\right) = 0$, we can find the constant $c$:
+
+    Substitute $x = \frac{1}{2} \pi$ and $y = 0$ into the proposed solution:
+    $0 = c \sin^2 \left(\frac{1}{2} \pi\right) + 4$
+    $0 = c \cdot 1 + 4$
+    $c = -4$
+
+    Final Solution
+    Therefore, the solution to the IVP is:
+    $y = -4\sin^2 x + 4$
+
 
