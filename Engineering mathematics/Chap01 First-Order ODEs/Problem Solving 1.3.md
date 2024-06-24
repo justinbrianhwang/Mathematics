@@ -1,3 +1,6 @@
+# Kreyszig P8. Problem Set 1.3
+
+
 2. $y^3 y' + x^3 = 0$
     
     ↔ $y^3 \frac{dy}{dx} = -x^3$
