@@ -105,38 +105,38 @@
 9. Differential Equation Solution Verification and Initial Value Problem
 
     Given Differential Equation
-    $ y' + 4y = 1.4 $
+    $y' + 4y = 1.4$
 
     Proposed Solution
-    $ y = ce^{-4x} + 0.35 $
+    $y = ce^{-4x} + 0.35$
 
     Verification
     First, let's verify if the proposed solution satisfies the differential equation:
 
     Given:
-    $ y = ce^{-4x} + 0.35 $
+    $y = ce^{-4x} + 0.35$
 
-    Taking the derivative of $ y $:
-    $ y' = -4ce^{-4x} $
+    Taking the derivative of $y$:
+    $y' = -4ce^{-4x}$
 
-    Now, substitute $ y $ and $ y' $ back into the differential equation $ y' + 4y $:
-    $ y' + 4y = -4ce^{-4x} + 4(ce^{-4x} + 0.35) $
-    $ y' + 4y = -4ce^{-4x} + 4ce^{-4x} + 1.4 $
-    $ y' + 4y = 1.4 $
+    Now, substitute $y$ and $y'$ back into the differential equation $y' + 4y$:
+    $y' + 4y = -4ce^{-4x} + 4(ce^{-4x} + 0.35)$
+    $y' + 4y = -4ce^{-4x} + 4ce^{-4x} + 1.4$
+    $y' + 4y = 1.4$
 
     Thus, the proposed solution satisfies the differential equation.
 
     Initial Value Problem (IVP)
-    Given the initial condition $ y(0) = 2 $, we can find the constant $ c $:
+    Given the initial condition $y(0) = 2$, we can find the constant $c$:
 
-    $ y(0) = 2 $
-    $ 2 = c \cdot 1 + 0.35 $
-    $ 2 = c + 0.35 $
-    $ c = 1.65 $
+    $y(0) = 2$
+    $2 = c \cdot 1 + 0.35$
+    $2 = c + 0.35$
+    $c = 1.65$
 
     Final Solution
     Therefore, the solution to the IVP is:
-    $ y = 1.65e^{-4x} + 0.35 $
+    $y = 1.65e^{-4x} + 0.35$
     [graph]
     
    
