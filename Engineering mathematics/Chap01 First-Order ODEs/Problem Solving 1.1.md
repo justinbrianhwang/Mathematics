@@ -138,7 +138,7 @@
     Therefore, the solution to the IVP is:
     $y = 1.65e^{-4x} + 0.35$
 
-    [graph]
+    
     
 10. Differential Equation Solution Verification and Initial Value Problem
 
@@ -173,4 +173,39 @@
     Final Solution
     Therefore, the solution to the IVP is:
     $y = \pi e^{-2.5x^2}$
+
+
+11. Differential Equation Solution Verification and Initial Value Problem
+
+    Given Differential Equation
+    $y' = y+e^{x}$
+
+    Proposed Solution
+    $y = (x+c) e^x$
+
+    Verification
+    First, let's verify if the proposed solution satisfies the differential equation:
+
+    Given:
+    $y = (x+c) e^x$
+
+    Taking the derivative of $y$:
+    $y' = e^x + (x+c)e^x = e^x (x+c + 1)$
+
+    Now, substitute $y$ and $y'$ back into the differential equation $y + e^x$:
+    $y + e^x = (x+c)e^x + e^x = e^x (x+c+ 1)$
+
+    Thus, the proposed solution satisfies the differential equation.
+
+    Initial Value Problem (IVP)
+    Given the initial condition $y(0) = \frac{1}{2}$, we can find the constant $c$:
+
+    $y(0) = \frac{1}{2}$
+    $\frac{1}{2} = c \cdot 1$
+    $c = \frac{1}{2}$
+
+    Final Solution
+    Therefore, the solution to the IVP is:
+    $y = (x + \frac{1}{2})e^x$
+
 
