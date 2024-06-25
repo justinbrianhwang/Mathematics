@@ -177,8 +177,9 @@
 
     ![function1.1.9](https://i.imgur.com/ObCMYJV.png)
     
+    
 
-11. Differential Equation Solution Verification and Initial Value Problem
+12. Differential Equation Solution Verification and Initial Value Problem
 
     Given Differential Equation
     $y' = y+e^{x}$
@@ -211,7 +212,9 @@
     Therefore, the solution to the IVP is:
     $y = (x + \frac{1}{2})e^x$
 
-12. Differential Equation Solution Verification and Initial Value Problem
+    ![function1.1.9](https://i.imgur.com/FsFLGSm.png)
+
+13. Differential Equation Solution Verification and Initial Value Problem
 
     Given Differential Equation
     $yy' = 4x$
@@ -248,7 +251,7 @@
     Therefore, the solution to the IVP is:
     $y^2 - 4x^2 = 12$
 
-13. Differential Equation Solution Verification and Initial Value Problem
+14. Differential Equation Solution Verification and Initial Value Problem
 
     Given Differential Equation
     $y' = y - y^2$
@@ -282,7 +285,7 @@
     Therefore, the solution to the IVP is:
     $y = \frac{1}{1 + 3e^{-x}}$
 
-14. Differential Equation Solution Verification and Initial Value Problem
+15. Differential Equation Solution Verification and Initial Value Problem
 
     Given Differential Equation
     $y' \tan x = 2y - 8$
