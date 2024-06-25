@@ -138,7 +138,7 @@
     Therefore, the solution to the IVP is:
     $y = 1.65e^{-4x} + 0.35$
 
-    ![function1.1.9](https://imgur.com/kkO33Zb)
+    ![function1.1.9](https://i.imgur.com/kkO33Zb.png)
     
     
 10. Differential Equation Solution Verification and Initial Value Problem
