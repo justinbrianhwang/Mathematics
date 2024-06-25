@@ -175,6 +175,8 @@
     Therefore, the solution to the IVP is:
     $y = \pi e^{-2.5x^2}$
 
+    ![function1.1.9](https://i.imgur.com/ObCMYJV.png)
+    
 
 11. Differential Equation Solution Verification and Initial Value Problem
 
