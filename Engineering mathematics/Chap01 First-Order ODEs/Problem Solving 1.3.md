@@ -215,3 +215,155 @@
     $y = \frac{24}{x}$
 
 
+12. $y' = 1 + 4y^2$, $y(1) = 0$
+
+    $\frac{1}{1 + 4y^2} \, dy = dx$
+
+    $\frac{1}{1 + (2y)^2} \, dy = dx$
+
+    $\int \frac{1}{1 + (2y)^2} \, dy = \int dx$
+
+    $\frac{1}{2} \tan^{-1} (2y) = x + c$
+
+    $2y = \tan (2x + c)$
+
+    $y = \frac{1}{2} \tan (2x + c)$
+
+    $0 = \frac{1}{2} \tan (2 \cdot 1 + c)$
+
+    $2 + c = 0$
+
+    $c = -2$
+
+    $y = \frac{1}{2} \tan (2x - 2)$
+
+
+13. $y' \cosh^2 x = \sin^2 y$, $y (0) = \frac{\pi}{2}$
+
+    $\csc^2 y \, dy = \frac{1}{\cosh^2 x} \, dx$
+
+    $\int \csc^2 y \, dy = \int \frac{1}{\cosh^2 x} \, dx$
+
+    $- \cot y = \tanh x + c$
+
+    $-\cot \left(\frac{\pi}{2}\right) = \tanh(0) + c$
+
+    $1 + c = 0$
+
+    $c = -1$
+
+    $-\cot y = \tanh x - 1$
+
+
+14. $\frac{dr}{dt} = -2tr$, $r(0) = r_0$
+
+    $\frac{1}{r} \, dr = -2t \, dt$
+
+    $\int \frac{1}{r} \, dr = \int -2t \, dt$
+
+    $\ln r = -t^2 + c$
+
+    $r = c \times e^{-t^2}$
+
+    $r_0 = c \times 1$
+
+    $r = r_0 e^{-t^2 }$
+
+
+15. $y' = \frac{-4x}{y}$, $y(2) = 3$
+
+    $y \, dy = -4x \, dx$
+
+    $\int y \, dy = \int -4x \, dx$
+
+    $\frac{1}{2} y^2 = -2x^2 + c$
+
+    $y^2 + 4x^2 = c$
+
+    $3^2 + 4 \cdot 2^2 = c$
+
+    $9 + 16 = 25$
+
+    $c = 25$
+
+    $y^2 + 4x^2 = 25$
+
+
+16. $y' = (x + y - 2)^2$, $y(0) = 2$
+
+    $u = x + y - 2$
+
+    $y = u + 2 - x$
+
+    $y' = u' - 1$
+
+    $u' - 1 = u^2$
+
+    $u' = u^2 + 1$
+
+    $\frac{1}{u^2 + 1} \, du = dx$
+
+    $\int \frac{1}{u^2 + 1} \, du = \int dx$
+
+    $\tan^{-1}(u) = x + c$
+
+    $u = \tan(x + c)$
+
+    $x + y - 2 = \tan(x + c)$
+
+    $y = 2 - x + \tan(x + c)$
+
+    $2 - 0 + \tan(0 + c) = 2$
+
+    $0 + \tan(c) = 0$
+
+    $c = 0$
+
+    $y = 2 - x + \tan(x)$
+
+
+17. $xy' = y + 3x^4 \cos^2 \left(\frac{y}{x}\right)$, $y(1) = 0$
+
+    $u = \frac{y}{x}$
+
+    $y = ux$
+
+    $y' = u + xu'$
+
+    $xu' = 3x^3 \cos^2(u)$
+
+    $u' = 3x^2 \cos^2(u)$
+
+    $\sec^2(u) \, du = 3x^2 \, dx$
+
+    $\int \sec^2(u) \, du = \int 3x^2 \, dx$
+
+    $\tan(u) = x^3 + c$
+
+    $u = \tan^{-1}(x^3 + c)$
+
+    $\frac{y}{x} = \tan^{-1}(x^3 + c)$
+
+    $y = x \tan^{-1}(x^3 + c)$
+
+    $0 = 1 \cdot \tan^{-1}(1^3 + c)$
+
+    $0 = \tan^{-1}(1 + c)$
+
+    $c = -1$
+
+    $y = x \tan^{-1}(x^3 - 1)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
