@@ -175,11 +175,11 @@
     Therefore, the solution to the IVP is:
     $y = \pi e^{-2.5x^2}$
 
-    ![function1.1.9](https://i.imgur.com/ObCMYJV.png)
+    ![function1.1.10](https://i.imgur.com/ObCMYJV.png)
     
     
 
-12. Differential Equation Solution Verification and Initial Value Problem
+11. Differential Equation Solution Verification and Initial Value Problem
 
     Given Differential Equation
     $y' = y+e^{x}$
@@ -212,9 +212,9 @@
     Therefore, the solution to the IVP is:
     $y = (x + \frac{1}{2})e^x$
 
-    ![function1.1.9](https://i.imgur.com/FsFLGSm.png)
+    ![function1.1.11](https://i.imgur.com/FsFLGSm.png)
 
-13. Differential Equation Solution Verification and Initial Value Problem
+12. Differential Equation Solution Verification and Initial Value Problem
 
     Given Differential Equation
     $yy' = 4x$
@@ -250,6 +250,9 @@
     Final Solution
     Therefore, the solution to the IVP is:
     $y^2 - 4x^2 = 12$
+
+    ![function1.1.12](https://i.imgur.com/1VRUJjW.png)
+    
 
 14. Differential Equation Solution Verification and Initial Value Problem
 
