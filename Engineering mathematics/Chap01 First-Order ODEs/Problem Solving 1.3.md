@@ -188,3 +188,23 @@
     $\leftrightarrow \frac{y}{x} = \ln x + c$
     
     $\Rightarrow y = x \ln x + cx$
+
+11. $x y' + y = 0$, $y(4) = 6$
+
+$
+\begin{aligned}
+    &\leftrightarrow xy' = -y \\
+    &\leftrightarrow y' = -\frac{y}{x} \\
+    &\leftrightarrow \frac{1}{y} \, dy = - \frac{1}{x} \, dx \\
+    &\leftrightarrow \int \frac{1}{y} \, dy = - \int \frac{1}{x} \, dx \\
+    &\leftrightarrow \ln y = -\ln x + c \\
+    &\leftrightarrow y = e^{-\ln x} \times e^c \\
+    &\leftrightarrow y = c \times \frac{1}{x} \\
+    &\Rightarrow y = \frac{c}{x} \\
+    &\text{Using the initial condition,} \\
+    &6 = \frac{c}{4} \\
+    &\leftrightarrow c = 24 \\
+    &\Rightarrow y = \frac{24}{x}
+\end{aligned}
+$
+
