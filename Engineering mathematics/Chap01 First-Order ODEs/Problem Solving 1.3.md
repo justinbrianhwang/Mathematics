@@ -189,18 +189,29 @@
     
     $\Rightarrow y = x \ln x + cx$
 
+
 11. $x y' + y = 0$, $y(4) = 6$
 
-$
-xy' = -y \\
-y' = -\frac{y}{x} \\
-\frac{1}{y} \, dy = - \frac{1}{x} \, dx \\
-\int \frac{1}{y} \, dy = - \int \frac{1}{x} \, dx \\
-\ln y = -\ln x + c \\
-y = e^{-\ln x} \times e^c \\
-y = c \times \frac{1}{x} \\
-y = \frac{c}{x} \\
-6 = \frac{c}{4} \\
-c = 24 \\
-y = \frac{24}{x}
-$
+    $x y' = -y$
+
+    $y' = -\frac{y}{x}$
+
+    $\frac{1}{y} \, dy = - \frac{1}{x} \, dx$
+
+    $\int \frac{1}{y} \, dy = - \int \frac{1}{x} \, dx$
+
+    $\ln y = -\ln x + c$
+
+    $y = e^{-\ln x} \times e^c$
+
+    $y = c \times \frac{1}{x}$
+
+    $y = \frac{c}{x}$
+
+    $6 = \frac{c}{4}$
+
+    $c = 24$
+
+    $y = \frac{24}{x}$
+
+
