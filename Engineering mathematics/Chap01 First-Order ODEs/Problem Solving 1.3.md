@@ -192,19 +192,15 @@
 11. $x y' + y = 0$, $y(4) = 6$
 
 $
-\begin{aligned}
-    &\leftrightarrow xy' = -y \\
-    &\leftrightarrow y' = -\frac{y}{x} \\
-    &\leftrightarrow \frac{1}{y} \, dy = - \frac{1}{x} \, dx \\
-    &\leftrightarrow \int \frac{1}{y} \, dy = - \int \frac{1}{x} \, dx \\
-    &\leftrightarrow \ln y = -\ln x + c \\
-    &\leftrightarrow y = e^{-\ln x} \times e^c \\
-    &\leftrightarrow y = c \times \frac{1}{x} \\
-    &\Rightarrow y = \frac{c}{x} \\
-    &\text{Using the initial condition,} \\
-    &6 = \frac{c}{4} \\
-    &\leftrightarrow c = 24 \\
-    &\Rightarrow y = \frac{24}{x}
-\end{aligned}
+xy' = -y \\
+y' = -\frac{y}{x} \\
+\frac{1}{y} \, dy = - \frac{1}{x} \, dx \\
+\int \frac{1}{y} \, dy = - \int \frac{1}{x} \, dx \\
+\ln y = -\ln x + c \\
+y = e^{-\ln x} \times e^c \\
+y = c \times \frac{1}{x} \\
+y = \frac{c}{x} \\
+6 = \frac{c}{4} \\
+c = 24 \\
+y = \frac{24}{x}
 $
-
