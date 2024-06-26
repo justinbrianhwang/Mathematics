@@ -171,8 +171,7 @@
     $c = 1$
     
     ∴ $e^{2x} \cos y  =1$
-    
-# Differential Equations Solutions
+
 
 10. $y dx + [y + \tan (x+y)]dy = 0$
     
