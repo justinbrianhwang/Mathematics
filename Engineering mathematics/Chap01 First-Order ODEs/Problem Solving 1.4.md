@@ -1,258 +1,257 @@
 # Differential Equations Solutions
 
-1. $2xy dx + x^2 dy = 0$
+1. $2xy   dx + x^2   dy = 0$
     
-    이 때, $M(x, ~y) = 2xy$라 하고, $N(x,~y) = x^2$ 라 하자. 
+    Let $M(x, y) = 2xy$ and $N(x, y) = x^2$.
     
     $M_y = 2x$,  $N_x = 2x$
     
-    ∴ $M_y = N_x$ 가 성립하므로 exact equation 풀이가 가능하다! 
+    Therefore, $M_y = N_x$ holds, making it an exact equation!
     
-    $\int M(x, ~y) dx + c(y) = \int N(x, ~y) dy + c(x) = c^*$
+    $\int M(x, y)   dx + c(y) = \int N(x, y)   dy + c(x) = c^*$
     
     $x^2 y + c(y) = x^2y + c(x) = c^*$
     
     $x^2 y = c$
     
-    ∴ $y = {c \over x^2 }$이다! 
-    
+    Hence, $y = \frac{c}{x^2}$.
 
-2. $x^3 dx + y^3 dy = 0$
+2. $x^3   dx + y^3   dy = 0$
     
-    $M(x,~y) = x^3$라 하고, $N(x,~y) = y^3$라 하자. 
+    Let $M(x, y) = x^3$ and $N(x, y) = y^3$.
     
-    $M_y (x, ~y) = 0$, $N_x (x, ~y) = 0$ 이므로, $M_y = N_x$ 가 성립하므로 exact equation 풀이가 가능하다!
+    $M_y (x, y) = 0$, $N_x (x, y) = 0$, so $M_y = N_x$ holds, making it an exact equation!
     
-    $\int M(x,~y) dx + c(y) = \int N(x,~y) dy + c(x)  = c^*$
+    $\int M(x, y)   dx + c(y) = \int N(x, y)   dy + c(x) = c^*$
     
-    ${1 \over 4} x^4 + c(y) = {1\over4} y^4 + c(x) = c^*$
+    $\frac{1}{4} x^4 + c(y) = \frac{1}{4} y^4 + c(x) = c^*$
     
-    ∴ $x^4 + y^4 = c$이다. 
-    
+    Therefore, $x^4 + y^4 = c$.
 
-3. $\sin x \cos y dx  + \cos x  \sin y dy = 0$
+3. $\sin x \cos y   dx + \cos x \sin y   dy = 0$
     
-    $M(x, ~y) = \sin x \cos y$ 라 하고, $N(x,~y) = \cos x \sin y$라 하자. 
+    Let $M(x, y) = \sin x \cos y$ and $N(x, y) = \cos x \sin y$.
     
-    $M_y = \sin x (- \sin y )$, $N_x = -\sin x \sin y$이므로, $M_y = N_x$ 가 성립하므로 exact equation 풀이가 가능하다!
+    $M_y = \sin x (- \sin y )$, $N_x = -\sin x \sin y$, so $M_y = N_x$ holds, making it an exact equation!
     
-    $\int M(x, ~y) dx + c(y) = \int N(x, ~y) dy + c(x) = c^*$
+    $\int M(x, y)   dx + c(y) = \int N(x, y)   dy + c(x) = c^*$
     
-    $-\cos x \cos y + c(y) = -\cos x  \cos y + c(x) = c^*$
+    $-\cos x \cos y + c(y) = -\cos x \cos y + c(x) = c^*$
     
-    ∴ $\cos x \cos y = c$이다.
+    Therefore, $\cos x \cos y = c$.
+
+4. $e^{3 \theta} (dr + 3r d\theta) = 0$
     
-4. $e^{3 \theta} (dr + 3r d \theta ) = 0$
+    $e^{3 \theta} dr + 3re^{3 \theta} d\theta = 0$
     
-    $e^{3 \theta} dr + 3re^{3 \theta} d \theta = 0$
+    Therefore, let $M(\theta, r) = e^{3\theta}$ and $N(\theta, r) = 3r e^{3 \theta}$.
     
-    ∴ $M(\theta,~r) = e^{3\theta}$라 하고, $N( \theta, r ) = 3r e^{3 \theta}$라 하자. 
+    $M_{\theta} = 3e^{3 \theta}$, $N_{r} = 3e^{3 \theta}$, so $M_{\theta} = N_r$ holds, making it an exact equation!
     
-    $M_{\theta} = 3e^{3 \theta}$, $N_{r} = 3e^{3 \theta}$이므로, $M_{\theta} = N_r$ 가 성립하므로 exact equation 풀이가 가능하다! 
-    
-    $\int M(\theta,~r) dr + c(\theta) = \int N(\theta, ~r) + c(r) = c^*$
+    $\int M(\theta, r)   dr + c(\theta) = \int N(\theta, r)   d\theta + c(r) = c^*$
     
     $e^{3 \theta} r + c(\theta) = e^{3 \theta} r + c(r) = c^*$
     
-    ∴ $r = c e^{-3\theta}$이다. 
+    Therefore, $r = c e^{-3\theta}$.
+
+5. $(x^2 + y^2)   dx - 2xy   dy = 0$
     
-5. $(x^2 + y^2 ) dx - 2xy dy = 0$
+    Let $M(x, y) = x^2 + y^2$ and $N(x, y) = -2xy$.
     
-    $M(x,~y) = x^2 + y^2$ 라 하고,  $N(x, ~y) = -2xy$라 하자. 
+    $M_y = 2y$, $N_x = -2y$, so $M_y \neq N_x$; thus, an integrating factor is needed. Let the integrating factor be $J(x)$. Since $J$ is the integrating factor, the following holds:
     
-    $M_y = 2y$,  $N_x = -2y$ 이므로, $M_y \not= N_x$이므로, exact equation풀이가 불가능한 상황이다. 이때는 적분 요소가 필요하다. 적분요소를 $J(x)$라 하자. $J$가 적분 요소이므로 다음이 성립한다. 
+    $\frac{\partial}{\partial y} (MJ) = \frac{\partial}{\partial x} (NJ)$
     
-    ${\partial \over \partial y} (MJ) = {\partial \over \partial y} (NJ)$
+    Simplifying the equation:
     
-    즉 위의 식을 정리하면 다음과 같다. 
+    $M_y J + MJ_y = N_x J + NJ_x$
     
-    $M_y J  + MJ_y = N_x J + NJ_x$  이다. 이때 $J$를 구해보자. 
+    Solving for $J$:
     
-    $2y J + (x^2 + y^2) \times 0 =  (-2y)J + (-2xy) J'$
+    $2y J + (x^2 + y^2) \times 0 = (-2y)J + (-2xy) J'$
     
     $4y J = -2xyJ'$
     
-    $- {2\over x} = {1\over J } J'$
+    $- \frac{2}{x} = \frac{1}{J} J'$
     
-    $-{2\over x} dx = {1 \over J} dJ$ 
+    $-\frac{2}{x}   dx = \frac{1}{J}   dJ$
     
-    $\int -{2\over x} dx = \int {1 \over J} dJ$ 
+    $\int -\frac{2}{x}   dx = \int \frac{1}{J}   dJ$
     
     $-2 \ln x = \ln J$
     
-    $J = {1\over x^2 }$이다. 이제 적분 요소를 곱한 값을 적분해보자. 
+    $J = \frac{1}{x^2}$
     
-    $MJ = 1 + ({y \over x})^2$
+    Multiplying by the integrating factor and solving:
     
-    $NJ = -2 {y \over x}$
+    $MJ = 1 + \left(\frac{y}{x}\right)^2$
     
-    $\int MJ dx + c(y) = \int NJ dy + c(x)  = c^*$
+    $NJ = -2 \frac{y}{x}$
     
-    $x - {y^2 \over x} + c(y) = -{y^2 \over x} +c(x) = c^*$
+    $\int MJ   dx + c(y) = \int NJ   dy + c(x) = c^*$
     
-    $x- {y^2 \over x} = c$
+    $x - \frac{y^2}{x} + c(y) = -\frac{y^2}{x} + c(x) = c^*$
+    
+    $x - \frac{y^2}{x} = c$
     
     $x^2 - y^2 = cx$
     
-    $y^2 = x^2 + cx$ 
+    $y^2 = x^2 + cx$
     
-    ∴ $y = \sqrt{x^2 + cx}$이다. 
+    Therefore, $y = \sqrt{x^2 + cx}$.
+
+6. $3(y+1)   dx = 2x   dy$
     
-6. $3(y+1) dx = 2x dy$ 
+    $3(y+1)   dx - 2x   dy = 0$
     
-    $3(y+1)dx -2x dy = 0$
+    Let $M(x, y) = 3y+3$ and $N(x, y) = -2x$.
     
-    $M(x,~y) = 3y+3$라 하고, $N(x,~y) = -2x$라 하자.
+    $M_y = 3$, $N_x = -2$, so $M_y \neq N_x$; an integrating factor is needed.
     
-    $M_y = 3 ,~N_x = -2$이므로 $M_y \not= N_x$이다. 적분 요소가 필요하므로 적분 요소부터 구해보자. 
+    Solving for $J$:
     
     $3J + (3y + 3) \times 0 = -2J + (-2x) J'$
     
     $5J = -2xJ'$
     
-    $-{5\over2} {1\over x}  = {1 \over J} J'$
+    $-\frac{5}{2} \frac{1}{x} = \frac{1}{J} J'$
     
-    $-{5\over2} {1\over x} dx  = {1 \over J} dJ$
+    $-\frac{5}{2} \frac{1}{x}   dx = \frac{1}{J}   dJ$
     
-    $\int -{5\over2} {1\over x}  = \int {1 \over J} J'$
+    $\int -\frac{5}{2} \frac{1}{x}   dx = \int \frac{1}{J}   dJ$
     
-    $-{5\over2} \ln x = \ln J$
+    $-\frac{5}{2} \ln x = \ln J$
     
-    $J = x^{-{5\over2}}$이다. 적분을 해보자. 
+    $J = x^{-\frac{5}{2}}$
     
-    $\int MJ dx + c(y) = \int NJ + c(x) = c^*$
+    Solving the equation:
     
-    $3(y+1) \int x^{- {5\over2}}dx + c(y) = -2 x^{-{3\over2}} \int dy + c(x) = c^*$
+    $\int MJ   dx + c(y) = \int NJ   dy + c(x) = c^*$
     
-    $- 2 (y+1 ) x^{- {3\over2}} = c$
+    $3(y+1) \int x^{-\frac{5}{2}}   dx + c(y) = -2 x^{-\frac{3}{2}} \int   dy + c(x) = c^*$
     
-    $y + 1 = c x^{3\over2}$
+    $-2 (y+1) x^{-\frac{3}{2}} = c$
     
-    ∴ $y = cx^{3\over2} - 1$
+    $y + 1 = c x^{\frac{3}{2}}$
     
-7. $2x \tan y dx + \sec^2 y dy = 0$
+    Therefore, $y = cx^{\frac{3}{2}} - 1$.
+
+7. $2x \tan y   dx + \sec^2 y   dy = 0$
     
-    $M  = 2x \tan y$라 하고, $N = \sec^2 y$ 라 하자. 
+    Let $M = 2x \tan y$ and $N = \sec^2 y$.
     
-    $M_y = 2x \sec^2 y ,~N_x = 0$이므로 $M_y \not= N_x$ 이므로 적분 요소가 필요하다. 
+    $M_y = 2x \sec^2 y$, $N_x = 0$, so $M_y \neq N_x$; an integrating factor is needed.
     
-    $(2x \sec^2 y) J + (x^2 \sec^2 y) \times 0 =  0 \times J + \sec^2 J'$
+    Solving for $J$:
     
-    $J = e^{x^2}$이다. 
+    $(2x \sec^2 y) J + (x^2 \sec^2 y) \times 0 = 0 \times J + \sec^2 J'$
     
-    ∴ $\tan y \times e^{x^2} = c$
+    $J = e^{x^2}$
     
-8. $e^x (\cos y dx - \sin y dy ) = 0$
+    Therefore, $\tan y \times e^{x^2} = c$.
+
+8. $e^x (\cos y   dx - \sin y   dy) = 0$
     
-    $M = e^x \cos y$라 하고, $N = -e^x \sin y$라 하자.
+    Let $M = e^x \cos y$ and $N = -e^x \sin y$.
     
-    $M_y = N_x$ 이므로 exact equation 풀이가 가능하다. 
+    Since $M_y = N_x$, it is an exact equation.
     
-    $\int M(x,~y) dx + c(y) = \int N(x, ~y) + c(x) = c^*$ 
+    $\int M(x, y)   dx + c(y) = \int N(x, y)   dy + c(x) = c^*$
     
-    $e^x \cos y = c$
+    Therefore, $e^x \cos y = c$.
+
+9. $e^{2x} (2 \cos y   dx - \sin y   dy) = 0, \quad y(0) = 0$
     
-9. $e^{2x} (2 \cos y dx - \sin y dy ) = 0, ~~y(0) = 0$ 
+    $2e^{2x} \cos y   dx - e^{2x} \sin y   dy = 0$
     
-    $2e^{2x} \cos y dx - e^{2x}\sin y dy =0$
+    Let $M = 2e^{2x} \cos y$ and $N = -e^{2x} \sin y$.
     
-    $M = 2e^{2x}\cos y$라 하고, $N = -e^{2x} \sin y$라 하자. 
+    $M_y = -2e^{2x} \sin y$, $N_x = -2e^{2x} \sin y$, so $M_y = N_x$ holds.
     
-    $M_y = -2e^{2x}\sin y$ 이고, $N_x = -2e^{2x} \sin y$ 이므로 $M_y = N_x$ 가 성립한다. 
+    $\int M(x, y)   dx + c(y) = \int N(x, y)   dy + c(x) = c^*$
     
-    $\int M(x,~y) dx + c(y) = \int N(x, ~y) + c(x) = c^*$ 
+    $\cos y \int 2e^{2x}   dx + c(y) = e^x \int \sin y   dy + c(x) = c^*$
     
-    $\cos y \int 2e^{2x} dx +c(y) = e^x \int \sin y dy + c(x) = c^*$
+    Therefore, $e^{2x} \cos y = c$.
     
-    ∴ $e^{2x} \cos y = c$
-    
-    $y(0) = 0$
+    Given $y(0) = 0$:
     
     $c = 1$
     
-    ∴ $e^{2x} \cos y  =1$
+    Therefore, $e^{2x} \cos y = 1$.
 
+10. $y   dx + [y + \tan(x+y)]   dy = 0$
+    
+    Given the integrating factor $J = \cos(x+y)$:
+    
+    Let $M = y$ and $N = y + \tan(x+y)$.
+    
+    $MJ = y\cos(x+y)$, $NJ = y\cos(x+y) + \sin(x+y)$.
+    
+    $y \int \cos(x+y)   dx + c(y) = \int y \cos(x+y)   dy + \int \sin(x+y)   dy + c(x) = c$
+    
+    Therefore, $y \sin(x+y) + \cos(x+y) = c$.
 
-10. $y dx + [y + \tan (x+y)]dy = 0$
+11. $2 \cosh x \cos y   dx = \sinh x \sin y   dy$
     
-    적분 요소가 주어졌으므로 
+    $2 \cosh x \cos y   dx - \sinh x \sin y   dy = 0$
     
-    $J = \cos(x+y)$를 곱하여 풀어보자. 
-    
-    $M = y$, $N= y + \tan (x+y)$라 할 때, 
-    
-    $MJ = y\cos(x+y)$, $NJ = y\cos(x+y) +\sin(x+y)$이다. 
-    
-    $y \int \cos (x+y) dx +c(y) = \int y \cos (x+y) dy + \int \sin(x+y) dy +c(x) = c$ 
-    
-    ∴ $y\sin (x+y) + \cos(x+y) = c$
-
-11. $2 \cosh x \cos y dx = \sinh x \sin y dy$
-    
-    $2 \cosh x \cos y dx - \sinh x \sin y dy = 0$
-    
-    $M(x,~y) = 2 \cosh x \cos y$
-    
-    $N(x,~y) = -\sinh x \sin y$
+    Let $M(x, y) = 2 \cosh x \cos y$ and $N(x, y) = -\sinh x \sin y$.
     
     $M_y = -2 \cosh x \sin y$
     
     $N_x = - \cosh x \sin y$
     
-    $M_y \not= N_x$이므로 적분요소 $J$가 필요하다.
+    Since $M_y \neq N_x$, an integrating factor $J$ is needed.
     
-    $\coth x  =  \frac{1}{J} J'$
+    Solving for $J$:
     
-    $\coth x dx = \frac{1}{J} dJ$
+    $\coth x = \frac{1}{J} J'$
     
-    ∴ $J = \sinh x$ 이다.
+    $\coth x   dx = \frac{1}{J}   dJ$
+    
+    Therefore, $J = \sinh x$.
     
     $MJ = 2 \cosh x \sinh x \cos y$
     
     $NJ = -\sinh^2 x \sin y$
     
-    $\int M(x,~y)J(x) dx + c(y) = \int N(x, ~y)J(x) + c(x) = c^*$
+    $\int M(x, y)J(x)   dx + c(y) = \int N(x, y)J(x)   dy + c(x) = c^*$
     
-    ∴ $\sinh^2 x \cos y =c$이다.
+    Therefore, $\sinh^2 x \cos y = c$.
 
-12. $(2xy dx + dy ) e^{x^2 } = 0$, $y(0) = 2$
+12. $(2xy   dx + dy) e^{x^2} = 0$, $y(0) = 2$
     
-    $2x e^{x^2 } y dx + e^{x^2} dy = 0$
+    $2x e^{x^2} y   dx + e^{x^2}   dy = 0$
     
-    $M = 2x e^{x^2 } y$
+    Let $M = 2x e^{x^2} y$ and $N = e^{x^2}$.
     
-    $N = e^{x^2}$
+    $M_y = 2x e^{x^2}$, $N_x = 2xe^{x^2}$, so $M_y = N_x$ holds, making it an exact equation.
     
-    $M_y = 2x e^{x^2}$
+    $\int M(x, y)   dx + c(y) = \int N(x, y)   dy + c(x) = c^*$
     
-    $N_x = 2xe^{x^2}$
+    Therefore, $e^{x^2} y = c$
     
-    $M_y = N_x$ 가 성립하므로 exact equation이 가능한 상황이다.
-    
-    $\int M(x,~y) dx + c(y) = \int N(x, ~y) + c(x) = c^*$
-    
-    $e^{x^2 } y = c$
+    Given $y(0) = 2$:
     
     $1 \times 2 = c$
     
-    ∴ $y = 2 e^{-x^2}$이다.
+    Therefore, $y = 2 e^{-x^2}$.
 
-13. $e^{-y} dx + e^{-x} (-e^{-y} + 1)dy = 0$, $F = e^{x+y}$
+13. $e^{-y}   dx + e^{-x} (-e^{-y} + 1)   dy = 0$, $F = e^{x+y}$
     
-    적분 요소가 주어졌으므로, 바로 식을 구하면,
+    Given the integrating factor $F = e^{x+y}$:
     
-    $e^{x} dx + e^{y} (-e^{-y} + 1)dy = 0$
+    $e^x   dx + e^y (-e^{-y} + 1)   dy = 0$
     
-    $\int e^{x} dx + c(y) = \int e^{y} (-e^{-y} + 1)dy + c(x) = c^*$
+    $\int e^x   dx + c(y) = \int e^y (-e^{-y} + 1)   dy + c(x) = c^*$
     
-    $e^x + e^y - y =c$
+    Therefore, $e^x + e^y - y = c$.
 
-14. $(a+1)y + (b+1)x dy = 0$, $y(1) = 1$, $F = x^a y^b$
+14. $(a+1)y + (b+1)x   dy = 0$, $y(1) = 1$, $F = x^a y^b$
     
-    적분 요소가 주어졌으므로 다음을 바로 계산하자.
+    Given the integrating factor $F = x^a y^b$:
     
-    $(a + 1) x^a y^{b+1} + (b + 1) x^{a+ 1} y^b dy = 0$
+    $(a + 1) x^a y^{b+1} + (b + 1) x^{a+ 1} y^b   dy = 0$
     
-    $x^{a+1} y^{b+1} = 1$이다.
-
-
+    Therefore, $x^{a+1} y^{b+1} = 1$.
