@@ -172,5 +172,88 @@
     
     ∴ $e^{2x} \cos y  =1$
     
+# Differential Equations Solutions
+
+10. $y dx + [y + \tan (x+y)]dy = 0$
+    
+    적분 요소가 주어졌으므로 
+    
+    $J = \cos(x+y)$를 곱하여 풀어보자. 
+    
+    $M = y$, $N= y + \tan (x+y)$라 할 때, 
+    
+    $MJ = y\cos(x+y)$, $NJ = y\cos(x+y) +\sin(x+y)$이다. 
+    
+    $y \int \cos (x+y) dx +c(y) = \int y \cos (x+y) dy + \int \sin(x+y) dy +c(x) = c$ 
+    
+    ∴ $y\sin (x+y) + \cos(x+y) = c$
+
+11. $2 \cosh x \cos y dx = \sinh x \sin y dy$
+    
+    $2 \cosh x \cos y dx - \sinh x \sin y dy = 0$
+    
+    $M(x,~y) = 2 \cosh x \cos y$
+    
+    $N(x,~y) = -\sinh x \sin y$
+    
+    $M_y = -2 \cosh x \sin y$
+    
+    $N_x = - \cosh x \sin y$
+    
+    $M_y \not= N_x$이므로 적분요소 $J$가 필요하다.
+    
+    $\coth x  =  \frac{1}{J} J'$
+    
+    $\coth x dx = \frac{1}{J} dJ$
+    
+    ∴ $J = \sinh x$ 이다.
+    
+    $MJ = 2 \cosh x \sinh x \cos y$
+    
+    $NJ = -\sinh^2 x \sin y$
+    
+    $\int M(x,~y)J(x) dx + c(y) = \int N(x, ~y)J(x) + c(x) = c^*$
+    
+    ∴ $\sinh^2 x \cos y =c$이다.
+
+12. $(2xy dx + dy ) e^{x^2 } = 0$, $y(0) = 2$
+    
+    $2x e^{x^2 } y dx + e^{x^2} dy = 0$
+    
+    $M = 2x e^{x^2 } y$
+    
+    $N = e^{x^2}$
+    
+    $M_y = 2x e^{x^2}$
+    
+    $N_x = 2xe^{x^2}$
+    
+    $M_y = N_x$ 가 성립하므로 exact equation이 가능한 상황이다.
+    
+    $\int M(x,~y) dx + c(y) = \int N(x, ~y) + c(x) = c^*$
+    
+    $e^{x^2 } y = c$
+    
+    $1 \times 2 = c$
+    
+    ∴ $y = 2 e^{-x^2}$이다.
+
+13. $e^{-y} dx + e^{-x} (-e^{-y} + 1)dy = 0$, $F = e^{x+y}$
+    
+    적분 요소가 주어졌으므로, 바로 식을 구하면,
+    
+    $e^{x} dx + e^{y} (-e^{-y} + 1)dy = 0$
+    
+    $\int e^{x} dx + c(y) = \int e^{y} (-e^{-y} + 1)dy + c(x) = c^*$
+    
+    $e^x + e^y - y =c$
+
+14. $(a+1)y + (b+1)x dy = 0$, $y(1) = 1$, $F = x^a y^b$
+    
+    적분 요소가 주어졌으므로 다음을 바로 계산하자.
+    
+    $(a + 1) x^a y^{b+1} + (b + 1) x^{a+ 1} y^b dy = 0$
+    
+    $x^{a+1} y^{b+1} = 1$이다.
 
 
