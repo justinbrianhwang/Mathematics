@@ -1,0 +1,387 @@
+# In English
+### Definition of Probability
+
+**Probability**: The likelihood of an event occurring
+
+**Probability Experiment**: An experiment where the outcome is not known in advance
+
+- Coin toss, public opinion survey, light bulb lifespan
+
+**Definition of Probability**:
+
+- Sample space ($S$): The set of all possible outcomes
+- Event: A subset of the sample space
+- Probability: The likelihood of an event occurring
+
+**Classical Definition of Probability**
+
+- Assumes that each outcome in a finite sample space has the same likelihood of occurring
+- Defines probability through counting the number of cases
+
+### Basic Properties of Probability
+
+#### Basic Properties I
+
+1. $P(S) = 1$
+2. $0 \leq P(A) \leq 1$
+
+#### Basic Properties II
+
+1. $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ (if $P(A \cap B) \not= 0$, mutually exclusive events)
+2. $P(A) + P(A^C) = 1$ (complementary event property)
+3. $P(A) = P(A \cap B) + P(A \cap B^C)$ (partition of an event)
+
+### Conditional Probability
+
+- The probability of event B occurring given that event A has occurred
+- Notation and definition: $P(B|A) = \frac{P(A \cap B)}{P(A)}$ (provided $P(A) > 0$)
+- Event A becomes the new sample space
+- For B to occur, $A \cap B$ must occur
+
+### Independence of Events
+
+The occurrence of one event does not affect the probability of another event occurring
+
+- For two events $A$ and $B$, check conditional probabilities
+- Definition of independence:
+  - $P(A|B) = P(A)$ or $P(B|A) = P(B)$ ⇒ explained by the multiplication rule
+  - Two events $A$ and $B$ are independent
+  - The occurrence of event $A$ does not affect the probability of event $B$ (and vice versa)
+
+#### Multiplication Rule
+
+- $P(A \cap B) = P(A) P(B|A) = P(B) P(A|B)$ (by conditional probability)
+- If $A$ and $B$ are independent, $P(A \cap B) = P(A)P(B)$
+
+### Law of Total Probability
+
+Partition of the sample space
+
+- Mutually exclusive events $A_1,~A_2,~\cdots,~A_n~(A_i \cap A_j = \varnothing)$
+- $A_1 \cup A_2 \cup \cdots \cup A_n = S$
+- The simplest partition is $A,~A^C$
+
+#### Law of Total Probability
+
+- Partition of the sample space $S$: $A_1,~A_2,~A_3,~\cdots,~A_n$
+- $P(B) = P(B \cap S) = P(B \cap (A_1 \cup A_2 \cup A_3 \cup \cdots \cup A_n))$
+  $= P((B \cap A_1) \cup (B \cap A_2) \cup \cdots \cup (B \cap A_n))$
+  $= P(B \cap A_1) + P(B \cap A_2) + \cdots + P(B \cap A_n)$
+  $= P(A_1) P(B|A_1) + P(A_2) P(B|A_2) + \cdots + P(A_n) P(B|A_n)$
+- Decompose the probability of any event into the probabilities of mutually exclusive events
+
+### Bayes' Theorem
+
+Partition of the sample space $S$: $A_1,~A_2,~A_3,~\cdots,~A_n$
+
+#### Bayes' Theorem
+
+- $P(A_i | B) = \frac{P(A_i \cap B)}{P(B)}$
+  $= \frac{P(A_i) P(B|A_i)}{[P(A_1) P(B|A_1) + \cdots + P(A_n) P(B|A_n)]}$
+- Express posterior probability using prior probabilities
+
+### Random Variables
+
+#### Definition of Random Variables
+
+- A real-valued function defined on a sample space ($S \rightarrow R$)
+- The numerical result assigned to the outcome of a probability experiment
+- Denoted by capital letters $X,~Y,~Z$, etc.
+- The value of a random variable is unknown in advance
+- The value of a random variable is determined by probability (probability distribution)
+- Discrete vs. Continuous
+
+#### Examples of Random Variables
+
+- $X =$ Die face → The outcome of the probability experiment itself is a random variable
+- $Y =$ Coin toss head/tail?
+  → Assigning 1 to heads and 0 to tails makes it a random variable
+
+#### Random Variables and Data
+
+- Collected data $x_1,~x_2,~\cdots,~x_n$ → Data or observations
+- Data before collection $X_1,~X_2,~\cdots,~X_n$ → Random variables
+- Random variables are theoretical models for data
+- Data is interpreted as observations of random variables
+
+### Probability Distribution
+
+#### Probability Distribution
+
+- The relationship that assigns probabilities to possible values of a random variable
+- Also referred to as a distribution function
+
+#### Examples of Probability Distributions
+
+- $X =$ Die face → Possible values are $1, 2, 3, 4, 5, 6$
+- Probability corresponding to the values of $X$: $P(X=1) = \frac{1}{6}, ~\cdots P(X=6) = \frac{1}{6}$
+- The relationship that assigns probabilities to the possible values of $X$ is the probability distribution of $X$
+- $p(x) = P(X=x) = \frac{1}{6}, x = 1, 2, \cdots, 6$ → Terms like probability function, probability density function, distribution function
+
+#### Types of Random Variables
+
+- Discrete: Random variables that take on discrete values like integers
+- Continuous: Random variables that take on all real values in an interval
+
+#### Probability Density Function
+
+- A function representing the probability distribution of a random variable
+- For discrete random variables, it represents probability → The function value itself corresponds to probability
+- For continuous random variables, it represents density → The area under the function corresponds to probability
+
+#### Properties of Probability Density Functions
+
+- Discrete:
+  1. $\sum _{all} p(x) = 1$
+  2. $P(X=x) = p(x)$
+  3. $P(a < X \leq b) = \sum_{a < X \leq b} p(x)$
+     → The probability of a random variable is determined by the sum of the probability function
+- Continuous:
+  1. $\int_{-\infty}^{\infty} f(x) dx = 1$
+  2. $P(a < X \leq b) = \int_a^b f(x)dx$
+     → The probability of a random variable is determined by the integral of the probability density function
+
+#### Mean of a Random Variable
+
+- Discrete: $E(X) = \sum xp(x)$
+- Continuous: $E(X) = \int_{-\infty}^{\infty} xf(x) dx$
+  - A measure indicating the central position of the probability distribution
+  - Other expressions and symbols: Expected value, $\mu$, $\mu_X$, etc.
+  - Also called the population mean as it represents the population through the probability distribution
+
+#### Variance of a Random Variable
+
+- $Var(X) = E[(X - \mu)^2]$
+- The mean of the squared deviations
+- A measure indicating the dispersion of the probability distribution
+- Also called the population variance and expressed as $\sigma^2$, ${\sigma_X}^2$, etc.
+- Calculation formula: $Var(X) = E[X^2 - 2 \mu X + \mu^2] = E[X^2] + \mu$
+- Standard Deviation:
+  - $sd(X) = \sqrt{Var(X)}$
+  - Has the same unit as the random variable $X$ and is more suitable for expressing dispersion than variance
+
+### Uniform Distribution
+
+- Uniformly distributed over the interval $[0,~1]$
+- Notation: $X \sim U(0,~1)$
+
+### Joint Distribution
+
+The probability distribution of two random variables $X$ and $Y$
+
+- Represented by the joint probability density function
+  - Discrete: $p(x,~y) = P(X=x,~Y=y)$
+  - Continuous: $P(a < X < b, c < Y < d) = \int_c^d \int_a^b f(x,~y) dx dy$
+
+#### Marginal Distribution
+
+- The distribution of each random variable $X$ or $Y$ determined from the joint distribution
+- $E(X), E(Y), Var(X), Var(Y)$ are determined from the marginal distribution
+
+#### Covariance
+
+- Covariance of variables $X$ and $Y$:
+  - $Cov(X,~Y) = E[(X - \mu_X)(Y - \mu_Y)] = E[XY] - \mu_X \mu_Y = \sigma_{XY}$
+  - A measure indicating the association between $X$ and $Y$
+- Correlation Coefficient of $X$ and $Y$:
+  - $Corr(X,~Y) = \frac{Cov(X,~Y)}{\sqrt{Var(X) Var(Y)}} = \rho$
+  - A measure standardizing covariance regardless of units
+  - Properties: $-1 \leq \rho \leq 1$
+  - If $\rho$ is near 1, there is a strong positive correlation
+  - If $\rho$ is near -1, there is a strong negative correlation
+  - If $\rho$ is near 0, there is no correlation
+
+
+
+# In korean
+### 확률의 정의
+
+**확률**: 어떤 사건이 일어날 가능성
+
+**확률 실험**: 미리 결과를 알 수 없는 실험
+
+- 동전 던지기, 여론 조사, 전구 수명
+
+**확률의 정의**:
+
+- 표본 공간(Sample space): 모든 가능한 결과들의 집합(기호, $S$)
+- 사건(event): 표본공간의 부분집합
+- 확률(Probability): 사건의 발생 가능성
+
+**확률의 고전적 정의**
+
+- 유한 표본공간 각 원소의 발생 가능성이 동일하다는 가정
+- 경우의 수를 통하여 확률 정의
+
+### 확률의 기본 성질
+
+#### 확률의 기본 성질 I
+
+1. $P(S) = 1$
+2. $0 \leq P(A) \leq 1$
+
+#### 확률의 기본 성질 II
+
+1. $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ (단, $P(A \cap B) \not= 0$인 경우, 배반사건)
+2. $P(A) + P(A^C) = 1$ (여사건의 성질)
+3. $P(A) = P(A \cap B) + P(A \cap B^C)$ (사건의 분할)
+
+### 조건부 확률
+
+- 사건 A가 주어진 조건에서 사건 B가 일어날 확률
+- 기호 및 정의: $P(B|A) = \frac{P(A \cap B)}{P(A)}$ (단, $P(A) > 0$)
+- 사건 A가 새로운 표본공간
+- B가 발생하려면 $A \cap B$ 발생
+
+### 사건의 독립
+
+사건의 발생 여부가 다른 사건의 발생 확률에 영향을 주지 않는 경우
+
+- 두 사건 $A,~B$에 대하여 조건부 확률 검토
+- 사건의 독립의 정의:
+  - $P(A|B) = P(A)$ 또는 $P(B|A) = P(B)$ ⇒ 곱셈 법칙에 의해 설명된다.
+  - 두 사건 $A,~B$는 독립사건
+  - 사건 $A$의 발생 여부가 사건 $B$의 발생 확률에 영향을 주지 않음 (동치적으로 $B$가 $A$에 영향을 주지 않음)
+
+#### 곱셈법칙
+
+- $P(A \cap B) = P(A) P(B|A) = P(B) P(A|B)$ (by, 조건부 확률)
+- $A,~B$가 독립이면 $P(A \cap B) = P(A)P(B)$
+
+### 전확률 공식
+
+표본공간의 분할
+
+- 서로 배반인 사건 $A_1,~A_2,~\cdots,~A_n~(A_i \cap A_j = \varnothing)$
+- $A_1 \cup A_2 \cup \cdots \cup A_n = S$
+- 가장 간단한 분할은 $A,~A^C$
+
+#### 전확률 공식
+
+- 표본공간 $S$의 분할 $A_1,~A_2,~A_3,~\cdots,~A_n$
+- $P(B) = P(B \cap S) = P(B \cap (A_1 \cup A_2 \cup A_3 \cup \cdots \cup A_n))$
+  $= P((B \cap A_1) \cup (B \cap A_2) \cup \cdots \cup (B \cap A_n))$
+  $= P(B \cap A_1) + P(B \cap A_2) + \cdots + P(B \cap A_n)$
+  $= P(A_1) P(B|A_1) + P(A_2) P(B|A_2) + \cdots + P(A_n) P(B|A_n)$
+- 임의의 사건의 확률을 배반인 사건의 확률로 분할
+
+### 베이즈 정리
+
+표본공간 $S$의 분할 $A_1,~A_2,~A_3,~\cdots,~A_n$
+
+#### 베이즈 정리
+
+- $P(A_i | B) = \frac{P(A_i \cap B)}{P(B)}$
+  $= \frac{P(A_i) P(B|A_i)}{[P(A_1) P(B|A_1) + \cdots + P(A_n) P(B|A_n)]}$
+- 사후 확률을 사전 확률을 이용해서 표현
+
+### 확률변수
+
+#### 확률변수의 정의
+
+- 표본공간에서 정의된 실수함수 ($S \rightarrow R$)
+- 확률실험의 결과에 수치를 대응시킨 결과
+- 대문자 $X,~Y,~Z$ 등으로 표현
+- 확률변수의 값은 미리 알 수 없음
+- 확률로 확률변수의 값 결정 (확률 분포)
+- 이산형 vs. 연속형
+
+#### 확률변수의 예
+
+- $X =$ 주사위 눈 → 확률 실험 결과 자체가 확률 변수
+- $Y =$ 동전 던지기 앞/뒷면?
+  → 앞면에 1, 뒷면에 0을 대응시키면 확률변수이다.
+
+#### 확률변수와 자료
+
+- 조사된 자료 $x_1,~x_2,~\cdots,~x_n$ → 자료 또는 데이터
+- 조사 전의 자료 $X_1,~X_2,~\cdots,~X_n$ → 확률변수
+- 확률변수는 자료에 대한 이론적 모형
+- 자료는 확률변수의 관측값으로 해석
+
+### 확률 분포
+
+#### 확률분포
+
+- 확률변수의 가능한 값에 확률을 대응시키는 관계
+- 분포 함수라는 표현도 사용
+
+#### 확률분포의 예
+
+- $X =$ 주사위 눈 → 가능한 값은 $1, 2, 3, 4, 5, 6$
+- $X$의 값에 대응하는 확률: $P(X=1) = \frac{1}{6}, ~\cdots P(X=6) = \frac{1}{6}$
+- $X$의 가능한 값과 확률이 대응하는 관계를 $X$의 확률분포
+- $p(x) = P(X=x) = \frac{1}{6}, x = 1, 2, \cdots, 6$ → 확률함수, 확률 밀도 함수, 분포함수 등의 표현
+
+#### 확률변수의 종류
+
+- 이산형: 정수와 같이 이산점의 값을 취하는 확률변수
+- 연속형: 어느 구간의 실수 전체를 취하는 확률변수
+
+#### 확률 밀도 함수
+
+- 확률변수의 확률분포를 표현하는 함수
+- 이산형 확률변수에서는 확률을 의미 → 함수값 자체가 확률에 해당
+- 연속형 확률변수의 경우는 밀도를 의미 → 함수 아래의 면적이 확률에 해당
+
+#### 확률 밀도함수의 성질
+
+- 이산형:
+  1. $\sum _{all} p(x) = 1$
+  2. $P(X=x) = p(x)$
+  3. $P(a < X \leq b) = \sum_{a < X \leq b} p(x)$
+     → 확률변수의 확률은 확률함수의 합으로 결정
+- 연속형:
+  1. $\int_{-\infty}^{\infty} f(x) dx = 1$
+  2. $P(a < X \leq b) = \int_a^b f(x)dx$
+     → 확률변수의 확률은 확률 밀도 함수의 적분값
+
+#### 확률변수의 평균
+
+- 이산형: $E(X) = \sum xp(x)$
+- 연속형: $E(X) = \int_{-\infty}^{\infty} xf(x) dx$
+  - 확률분포의 중심위치를 나타내는 측도
+  - 다른 표현 및 기호: 기댓값, $\mu$, $\mu_X$ 등
+  - 확률분포가 모집단을 표현한다는 의미에서 모집단의 평균이라고 부르기도 함
+
+#### 확률변수의 분산
+
+- $Var(X) = E[(X - \mu)^2]$
+- 제곱편차의 평균
+- 확률분포의 산포를 나타내는 측도
+- 모분산이라 부르기도 하고 $\sigma^2$, ${\sigma_X}^2$ 등으로 표현
+- 계산공식: $Var(X) = E[X^2 - 2 \mu X + \mu^2] = E[X^2] + \mu$
+- 표준편차:
+  - $sd(X) = \sqrt{Var(X)}$
+  - 확률변수 $X$와 같은 단위이며, 산포표현에 분산보다 적합
+
+### 균등분포
+
+- 구간 $[0,~1]$ 전체에서 균등하게 분포
+- 기호: $X \sim U(0,~1)$
+
+### 결합분포
+
+두 확률변수 $X,~Y$의 확률분포
+
+- 결합확률밀도함수로 결합분포 표현
+  - 이산형: $p(x,~y) = P(X=x,~Y=y)$
+  - 연속형: $P(a < X < b, c < Y < d) = \int_c^d \int_a^b f(x,~y) dx dy$
+
+#### 주변분포
+
+- 결합분포에서 결정되는 각 확률변수 $X$ 또는 $Y$의 분포
+- $E(X), E(Y), Var(X), Var(Y)$는 주변분포에서 결정
+
+#### 공분산
+
+- 변수 $X,~Y$의 공분산:
+  - $Cov(X,~Y) = E[(X - \mu_X)(Y - \mu_Y)] = E[XY] - \mu_X \mu_Y = \sigma_{XY}$
+  - $X$와 $Y$ 사이의 연관성을 표현하는 측도
+- $X,~Y$의 상관계수:
+  - $Corr(X,~Y) = \frac{Cov(X,~Y)}{\sqrt{Var(X) Var(Y)}} = \rho$
+  - 공분산을 단위 무관하게 표준화한 측도
+  - 성질: $-1 \leq \rho \leq 1$
+  - $\rho$가 $1$ 근처의 값이면 강한 양의 상관관계
+  - $\rho$가 $-1$ 근처의 값이면 강한 음의 상관관계
+  - $\rho$가 $0$ 근처의 값이면 상관관계가 없다고 해석
