@@ -328,13 +328,13 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = -x$
     
-    $y = e^{x} \left( \int e^{-x} (5.2) \, dx + c \right)$ 
+    $y = e^{x} \left( \int e^{-x} (5.2)   dx + c \right)$ 
     
     $y = e^x \left( -5.2e^{-x} + c \right)$
     
@@ -346,13 +346,13 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = -2x$
     
-    $y = e^{2x} \left( \int e^{-2x} (4x) \, dx + c \right)$
+    $y = e^{2x} \left( \int e^{-2x} (4x)   dx + c \right)$
     
     $y = e^{2x} \left( 2x e^{-2x} + c \right)$
     
@@ -364,13 +364,13 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = kx$
     
-    $y = e^{-kx} \left( \int e^{kx} e^{-kx} \, dx + c \right) = e^{-kx} \left( \int 1 \, dx + c \right}$ 
+    $y = e^{-kx} \left( \int e^{kx} e^{-kx}   dx + c \right) = e^{-kx} \left( \int 1   dx + c \right)$ 
     
     $y = (x + c)e^{-kx}$
     
@@ -380,19 +380,19 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = 2x$
     
-    $y = e^{-2x} \left( \int 4 e^{2x} \cos 2x \, dx + c \right)$ 
+    $y = e^{-2x} \left( \int 4 e^{2x} \cos 2x   dx + c \right)$ 
     
-    $\int 4e^{2x} \cos 2x \, dx = 2e^{2x} \cos 2x + \int 4 e^{2x} \sin 2x \, dx$
+    $\int 4e^{2x} \cos 2x   dx = 2e^{2x} \cos 2x + \int 4 e^{2x} \sin 2x   dx$
     
-    $= 2e^{2x} \cos 2x + 2e^{2x} \sin 2x - \int 4e^{2x} \cos 2x \, dx$
+    $= 2e^{2x} \cos 2x + 2e^{2x} \sin 2x - \int 4e^{2x} \cos 2x   dx$
     
-    $\int 4e^{2x} \cos 2x \, dx = e^{2x} (\cos 2x + \sin 2x)$
+    $\int 4e^{2x} \cos 2x   dx = e^{2x} (\cos 2x + \sin 2x)$
     
     $y = e^{-2x} \left( e^{2x} (\cos 2x + \sin 2x) + c \right)$
     
@@ -408,15 +408,15 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = -2 \ln x$
     
-    $y = x^2 \left( \int \frac{1}{x^2} x^2 e^x \, dx + c \right)$
+    $y = x^2 \left( \int \frac{1}{x^2} x^2 e^x   dx + c \right)$
     
-    $= x^2 \left( \int e^x \, dx + c \right)$
+    $= x^2 \left( \int e^x   dx + c \right)$
     
     $= x^2 e^x + cx^2$
     
@@ -426,15 +426,15 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = - \ln |\cos x|$
     
-    $y = \cos x \left( \int \frac{1}{\cos x} e^{-0.01x} \cos x \, dx + c \right)$
+    $y = \cos x \left( \int \frac{1}{\cos x} e^{-0.01x} \cos x   dx + c \right)$
     
-    $= \cos x \left( \int e^{-0.01x} \, dx + c \right)$
+    $= \cos x \left( \int e^{-0.01x}   dx + c \right)$
     
     $= \cos x \left( -100 e^{-0.01x} + c \right)$
     
@@ -446,15 +446,15 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = - \cos x$
     
-    $y = e^{\cos x} \left( \int e^{-\cos x} e^{\cos x} \, dx + c \right)$
+    $y = e^{\cos x} \left( \int e^{-\cos x} e^{\cos x}   dx + c \right)$
     
-    $= e^{\cos x} \left( \int \, dx + c \right)$
+    $= e^{\cos x} \left( \int   dx + c \right)$
     
     $= (x + c) e^{\cos x}$
     
@@ -472,15 +472,15 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = \tan x$
     
-    $y = e^{-\tan x} \left( \int e^{\tan x} \sec x \, dx + c \right)$
+    $y = e^{-\tan x} \left( \int e^{\tan x} \sec x   dx + c \right)$
     
-    $y = e^{-\tan x} \left( \int e^{\tan x} \, dx + c \right)$
+    $y = e^{-\tan x} \left( \int e^{\tan x}   dx + c \right)$
     
     $y = c e^{-\tan x} + 1$
     
@@ -494,19 +494,19 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = - \ln |\sin x|$
     
-    $y = \sin x \left( \int \frac{-2 \cos x}{\sin^2 x} \, dx + c \right)$
+    $y = \sin x \left( \int \frac{-2 \cos x}{\sin^2 x}   dx + c \right)$
     
     $\sin x = t$로 치환
     
-    $\cos x \, dx = dt$
+    $\cos x   dx = dt$
     
-    $\int \frac{-2}{t^2} \, dt = \frac{2}{t}$
+    $\int \frac{-2}{t^2}   dt = \frac{2}{t}$
     
     ∴ $y = \sin x \left( \frac{2}{\sin x} + c \right)$
     
@@ -520,13 +520,13 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
+    이때, $h$는 $h = \int p   dx$로 정의된다. 
     
     $h = 4 \ln x$
     
-    $y = x^{-4} \left( \int 8x^7 \, dx + c \right)$
+    $y = x^{-4} \left( \int 8x^7   dx + c \right)$
     
     $y = x^{-4} \left( x^8 + c \right)$
     
@@ -548,15 +548,15 @@
     
     $y' + py = r$의 형태이다.
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다.
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다.
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다.
+    이때, $h$는 $h = \int p   dx$로 정의된다.
     
     $h = -\ln | \cos x |$
     
-    $y = \cos x \left( \int \frac{1}{\cos x} e^{-0.01x} \cos x \, dx + c \right)$
+    $y = \cos x \left( \int \frac{1}{\cos x} e^{-0.01x} \cos x   dx + c \right)$
     
-    $= \cos x \left( \int e^{-0.01x} \, dx + c \right)$
+    $= \cos x \left( \int e^{-0.01x}   dx + c \right)$
     
     $= \cos x \left( -100 e^{-0.01x} + c \right)$
     
@@ -568,15 +568,15 @@
     
     $y' + py = r$의 형태이다.
     
-    $y = e^{-h} \left( \int e^h r \, dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다.
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$ 가 위의 일차 미분방정식의 기본꼴이다.
     
-    이때, $h$는 $h = \int p \, dx$로 정의된다.
+    이때, $h$는 $h = \int p   dx$로 정의된다.
     
     $h = -\cos x$
     
-    $y = e^{\cos x} \left( \int e^{-\cos x} e^{\cos x} \, dx + c \right)$
+    $y = e^{\cos x} \left( \int e^{-\cos x} e^{\cos x}   dx + c \right)$
     
-    $= e^{\cos x} \left( \int \, dx + c \right)$
+    $= e^{\cos x} \left( \int   dx + c \right)$
     
     $= (x + c) e^{\cos x}$
     
