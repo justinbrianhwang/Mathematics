@@ -33,7 +33,7 @@
     
     Hence, $y = \frac{ce^x}{1 + 4ce^x}$.
 
-## 4. $xy' = y + x^2$
+    4. $xy' = y + x^2$
 
     $y' = \frac{y}{x} + x^2$
 
