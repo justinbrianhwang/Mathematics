@@ -92,23 +92,23 @@
     
     $y = {ce^x \over 1 + 4ce^x}$
 
-4. $xy' = y + x^2$ 
-    
-    $y' = {y \over x} + x^2$ 
-    
-    $y' - {1 \over x} y = x$
-    
-    $y' + py = r$의 형태이다. 
-    
-    $y = e^{-h} \left{ \int e^h r \, dx + c \right\}$ 가 위의 일차 미분방정식의 기본꼴이다. 
-    
-    이때, $h$는 $h = \int p \, dx$로 정의된다. 
-    
-    $h = - \ln |x|$
-    
-    $y = x \left{ \int {1 \over x} \times x \, dx + c \right\}$
-    
-    $y= x \left{ x + c \right\}$
-    
-    ∴ $y= x^2 + cx$
+4. $xy' = y + x^2$
+    $y' = \frac{y}{x} + x^2$
 
+    $y' - \frac{1}{x} y = x$
+
+    $y' + py = r$의 형태이다.
+
+    일차 미분 방정식의 일반 해는:
+
+    $y = e^{-h} \left( \int e^h r \, dx + c \right)$
+
+    이때, $h$는 $h = \int p \, dx$로 정의된다.
+
+    $h = - \ln |x|$
+
+    따라서, $y = x \left( \int \frac{1}{x} x \, dx + c \right)$
+
+    따라서, $y = x \left( x + c \right)$
+
+    결론적으로, $y = x^2 + cx$.
