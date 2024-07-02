@@ -33,28 +33,27 @@
     
     Hence, $y = \frac{ce^x}{1 + 4ce^x}$.
 
-4. $xy' = y + x^2$ 
-    
-    $y' = \frac{y}{x} + x^2$
-    
-    $y' - \frac{1}{x} y = x$
-    
-    This is in the form $y' + py = r$.
-    
-    The general solution for this first-order differential equation is:
-    
-    $y = e^{-h} \left{ \int e^h r \, dx + c \right}$
-    
-    Here, $h$ is defined as $h = \int p \, dx$.
-    
-    $h = - \ln |x|$
-    
-    Therefore, $y = x \left{ \int \frac{1}{x} x \, dx + c \right}$
-    
-    Hence, $y= x \left{ x + c \right}$
-    
-    Therefore, $y= x^2 + cx$.
+## 4. $xy' = y + x^2$
 
+    $y' = \frac{y}{x} + x^2$
+
+    $y' - \frac{1}{x} y = x$
+
+    This is in the form $y' + py = r$.
+
+    The general solution for this first-order differential equation is:
+
+    $y = e^{-h} \left( \int e^h r \, dx + c \right)$
+
+    Here, $h$ is defined as $h = \int p \, dx$.
+
+    $h = - \ln |x|$
+
+    Therefore, $y = x \left( \int \frac{1}{x} x \, dx + c \right)$
+
+    Hence, $y = x \left( x + c \right)$
+
+    Therefore, $y = x^2 + cx$.
 
 
 # In korean
