@@ -6,15 +6,15 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = -x$
     
-    $y = e^{x} \left\{ \int e^{-x} (5.2)   dx + c \right\}$
+    $y = e^{x} \left( \int e^{-x} (5.2)   dx + c \right)$
     
-    $y = e^x \left\{-5.2e^{-x} + c \right\}$
+    $y = e^x \left( -5.2e^{-x} + c \right)$
     
     $y = c e^x - 5.2$
     
@@ -26,19 +26,19 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = -2x$
     
-    $y = e^{2x} \left\{ \int -2e^{-2x} x   dx + c \right\}$
+    $y = e^{2x} \left( \int e^{-2x} (4x)   dx + c \right)$
     
-    $y = e^{2x} \left\{ c + 2x e^{-2x} + e^{-2x} \right\}$
+    $y = e^{2x} \left( 2x e^{-2x} + c \right)$
     
-    $y = ce^{2x} + 2x + 1$
+    $y = ce^{2x} + 2x$
     
-    Hence, $y = ce^{2x} + 2x + 1$.
+    Hence, $y = ce^{2x} + 2x$.
 
 3. $y' + ky = e^{-kx}$
     
@@ -46,13 +46,13 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = kx$
     
-    $y = e^{-kx} \left\{ \int e^{kx} e^{-kx}   dx + c \right\} = e^{-kx} \left\{ \int 1   dx + c \right\}$
+    $y = e^{-kx} \left( \int e^{kx} e^{-kx}   dx + c \right) = e^{-kx} \left( \int 1   dx + c \right)$
     
     $y = (x + c)e^{-kx}$
     
@@ -64,13 +64,13 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = 2x$
     
-    $y = e^{-2x} \left\{ \int 4 e^{2x} \cos 2x   dx + c \right\}$
+    $y = e^{-2x} \left( \int 4 e^{2x} \cos 2x   dx + c \right)$
     
     $\int 4e^{2x} \cos 2x   dx = 2e^{2x} \cos 2x + \int 4 e^{2x} \sin 2x   dx$
     
@@ -78,7 +78,7 @@
     
     $\int 4e^{2x} \cos 2x   dx = e^{2x} (\cos 2x + \sin 2x)$
     
-    $y = e^{-2x} \left\{ e^{2x} (\cos 2x + \sin 2x) + c \right\}$
+    $y = e^{-2x} \left( e^{2x} (\cos 2x + \sin 2x) + c \right)$
     
     Hence, $y = \cos 2x + \sin 2x + ce^{-2x}$. Since this is an IVP, substitute the given initial condition to find $c$:
     
@@ -104,15 +104,15 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = -2 \ln x$
     
-    $y = x^2 \left\{ \int \frac{1}{x^2} x^2 e^x   dx + c \right\}$
+    $y = x^2 \left( \int \frac{1}{x^2} x^2 e^x   dx + c \right)$
     
-    $= x^2 \left\{ \int e^x   dx + c \right\}$
+    $= x^2 \left( \int e^x   dx + c \right)$
     
     $= x^2 e^x + cx^2$
     
@@ -124,27 +124,27 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = - \ln |\cos x|$
     
-    $y = \cos x \left\{ \int \frac{1}{\cos x} e^{-0.01x} \cos x   dx + c \right\}$
+    $y = \cos x \left( \int \frac{1}{\cos x} e^{-0.01x} \cos x   dx + c \right)$
     
-    $= \cos x \left\{ \int e^{-0.01x}   dx + c \right\}$
+    $= \cos x \left( \int e^{-0.01x}   dx + c \right)$
     
-    $= \cos x \left\{ -100 e^{-0.01x} + c \right\}$
+    $= \cos x \left( -100 e^{-0.01x} + c \right)$
     
     Since this is an IVP, substitute the given initial condition to find $c$:
     
-    $0 = \cos(0) \left\{ -100 e^{-0.01 \cdot 0} + c \right\}$
+    $0 = \cos(0) \left( -100 e^{-0.01 \cdot 0} + c \right)$
     
-    $0 = 1 \left\{ -100 + c \right\}$
+    $0 = 1 \left( -100 + c \right)$
     
     $c = 100$
     
-    Hence, $y = \cos x \left\{ -100 e^{-0.01x} + 100 \right\}$.
+    Hence, $y = \cos x \left( -100 e^{-0.01x} + 100 \right)$.
 
 7. $y' + y \sin x = e^{\cos x}$, $y(0) = -2.5$
     
@@ -152,15 +152,15 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = - \cos x$
     
-    $y = e^{\cos x} \left\{ \int e^{-\cos x} e^{\cos x}   dx + c \right\}$
+    $y = e^{\cos x} \left( \int e^{-\cos x} e^{\cos x}   dx + c \right)$
     
-    $= e^{\cos x} \left\{ \int   dx + c \right\}$
+    $= e^{\cos x} \left( \int   dx + c \right)$
     
     $= (x + c) e^{\cos x}$
     
@@ -184,15 +184,15 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = \tan x$
     
-    $y = e^{-\tan x} \left\{ e^{\tan x} \sec^2 x   dx + c \right\}$
+    $y = e^{-\tan x} \left( \int e^{\tan x} \sec x   dx + c \right)$
     
-    $y = e^{-\tan x} \left\{ e^{\tan x} + c \right\}$
+    $y = e^{-\tan x} \left( \int e^{\tan x}   dx + c \right)$
     
     $y = c e^{-\tan x} + 1$
     
@@ -210,13 +210,13 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = - \ln |\sin x|$
     
-    $y = \sin x \left\{ \int \frac{-2 \cos x}{\sin^2 x}   dx + c \right\}$
+    $y = \sin x \left( \int \frac{-2 \cos x}{\sin^2 x}   dx + c \right)$
     
     Let $\sin x = t$ for substitution:
     
@@ -238,15 +238,15 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = 4 \ln x$
     
-    $y = x^{-4} \left\{ \int 8x^7   dx + c \right\}$
+    $y = x^{-4} \left( \int 8x^7   dx + c \right)$
     
-    $y = x^{-4} \left\{ x^8 + c \right\}$
+    $y = x^{-4} \left( x^8 + c \right)$
     
     Hence, $y = x^4 + cx^{-4}$.
 
@@ -268,27 +268,27 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = -\ln | \cos x |$
     
-    $y = \cos x \left\{ \int \frac{1}{\cos x} e^{-0.01x} \cos x   dx + c \right\}$
+    $y = \cos x \left( \int \frac{1}{\cos x} e^{-0.01x} \cos x   dx + c \right)$
     
-    $= \cos x \left\{ \int e^{-0.01x}   dx + c \right\}$
+    $= \cos x \left( \int e^{-0.01x}   dx + c \right)$
     
-    $= \cos x \left\{ -100 e^{-0.01x} + c \right\}$
+    $= \cos x \left( -100 e^{-0.01x} + c \right)$
     
     Since this is an IVP, substitute the given initial condition to find $c$:
     
-    $0 = \cos(0) \left\{ -100 e^{-0.01 \cdot 0} + c \right\}$
+    $0 = \cos(0) \left( -100 e^{-0.01 \cdot 0} + c \right)$
     
-    $0 = 1 \left\{ -100 + c \right\}$
+    $0 = 1 \left( -100 + c \right)$
     
     $c = 100$
     
-    Hence, $y = \cos x \left\{ -100 e^{-0.01x} + 100 \right\}$.
+    Hence, $y = \cos x \left( -100 e^{-0.01x} + 100 \right)$.
 
 13. $y' + y \sin x = e^{\cos x}$, $y(0)=-2.5$
     
@@ -296,15 +296,15 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r   dx + c \right\}$
+    $y = e^{-h} \left( \int e^h r   dx + c \right)$
     
     Here, $h$ is defined as $h = \int p   dx$.
     
     $h = -\cos x$
     
-    $y = e^{\cos x} \left\{ \int e^{-\cos x} e^{\cos x}   dx + c \right\}$
+    $y = e^{\cos x} \left( \int e^{-\cos x} e^{\cos x}   dx + c \right)$
     
-    $= e^{\cos x} \left\{ \int   dx + c \right\}$
+    $= e^{\cos x} \left( \int   dx + c \right)$
     
     $= (x + c) e^{\cos x}$
     
@@ -317,8 +317,6 @@
     $c = -2.5/e$
     
     Hence, $y = (x - \frac{2.5}{e}) e^{\cos x}$.
-
-
 
 
 
