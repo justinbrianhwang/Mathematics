@@ -43,15 +43,15 @@
     
     The general solution for this first-order differential equation is:
     
-    $y = e^{-h} \left\{ \int e^h r \, dx + c \right\}$
+    $y = e^{-h} \left{ \int e^h r \, dx + c \right}$
     
     Here, $h$ is defined as $h = \int p \, dx$.
     
     $h = - \ln |x|$
     
-    Therefore, $y = x \left\{ \int \frac{1}{x} x \, dx + c \right\}$
+    Therefore, $y = x \left{ \int \frac{1}{x} x \, dx + c \right}$
     
-    Hence, $y= x \left\{ x + c \right\}$
+    Hence, $y= x \left{ x + c \right}$
     
     Therefore, $y= x^2 + cx$.
 
@@ -101,15 +101,15 @@
     
     $y' + py = r$의 형태이다. 
     
-    $y = e^{-h} \left\{ \int e^h r \, dx + c \right\}$ 가 위의 일차 미분방정식의 기본꼴이다. 
+    $y = e^{-h} \left{ \int e^h r \, dx + c \right\}$ 가 위의 일차 미분방정식의 기본꼴이다. 
     
     이때, $h$는 $h = \int p \, dx$로 정의된다. 
     
     $h = - \ln |x|$
     
-    $y = x \left\{ \int {1 \over x} \times x \, dx + c \right\}$
+    $y = x \left{ \int {1 \over x} \times x \, dx + c \right\}$
     
-    $y= x \left\{ x + c \right\}$
+    $y= x \left{ x + c \right\}$
     
     ∴ $y= x^2 + cx$
 
