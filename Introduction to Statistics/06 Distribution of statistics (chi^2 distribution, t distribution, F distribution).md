@@ -34,7 +34,7 @@ follows a $\chi^2$ distribution with $n-1$ degrees of freedom, i.e., ${\chi_{n-1
     Let $Z$ and $V$ be independent random variables, where $Z$ follows a standard normal distribution and $V$ follows a $\chi^2$ distribution with $k$ degrees of freedom. The random variable $t^* = \frac{Z}{\sqrt{V/k}}$ follows a $t$ distribution with $k$ degrees of freedom and is denoted as $t_k$.
     
 - The shape and characteristics of the $t$ distribution are determined by the degrees of freedom $k$.
-- If $t^* \sim t_k$, then $E(t^*) = 0$ for $k > 1$, and $Var(t^*) = \frac{k}{k - 2}$ for $k > 2$.
+- If $t^{*} \sim t_k$, then $E(t^{*}) = 0$ for $k > 1$, and $Var(t^{*}) = \frac{k}{k - 2}$ for $k > 2$.
 - The $t$ distribution is symmetric around the mean $0$ similar to the standard normal distribution.
 - As the degrees of freedom $k$ increase, the shape of the $t$ distribution approaches that of the standard normal distribution.
 - For small samples, it is used for inference about the population mean, difference between population means, and in regression analysis.
