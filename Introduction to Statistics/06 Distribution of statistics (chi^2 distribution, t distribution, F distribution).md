@@ -17,9 +17,9 @@ These distributions are derived from transforming a random sample ($X_1,~X_2, \c
 - Used for inference about population variance, independence tests in contingency tables, and the definitions of $t$ and $F$ distributions.
 - **Important**: If $X_1, ~X_2, ~\cdots, ~X_n$ are random samples drawn from a normal population with mean $\mu$ and variance $\sigma^2$, then
 
-  $$
+$$
   \frac{(n-1)s^2}{\sigma^2} = \frac{\sum_{i=1}^{n} (X_i - \bar{X})^2}{\sigma^2}
-  $$
+$$
     
     follows a $\chi^2$ distribution with $n-1$ degrees of freedom, i.e., ${\chi_{n-1}}^2$.
     
