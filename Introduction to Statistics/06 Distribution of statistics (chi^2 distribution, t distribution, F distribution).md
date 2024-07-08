@@ -21,8 +21,7 @@ $$
   \frac{(n-1)s^2}{\sigma^2} = \frac{\sum_{i=1}^{n} (X_i - \bar{X})^2}{\sigma^2}
 $$
 
-    
-    follows a $\chi^2$ distribution with $n-1$ degrees of freedom, i.e., ${\chi_{n-1}}^2$.
+follows a $\chi^2$ distribution with $n-1$ degrees of freedom, i.e., ${\chi_{n-1}}^2$.
     
 - ${\chi_{\alpha;k}}^2$: Denotes the value on the x-axis where the right tail area of a $\chi^2$ distribution with $k$ degrees of freedom is $\alpha$. That is, $P({\chi_{k}}^2 > {\chi_{\alpha;k}}^2) = \alpha$.
 
