@@ -7,7 +7,7 @@ These distributions are derived from transforming a random sample ($X_1,~X_2, \c
 
 - **Theorem**: $\chi^2$ Distribution
     
-    If $Z_1,~Z_2,~\cdots,~Z_k$ are $k$ independent standard normal random variables, then the distribution of $Y = {Z_1}^2 + {Z_2}^2 + \cdots + {Z_k}^2$ is called a $\chi^2$ distribution with $k$ degrees of freedom and is denoted as ${\chi_k}^2$.
+    If $Z_1, ~Z_2, ~\cdots, ~Z_k$ are $k$ independent standard normal random variables, then the distribution of $Y = {Z_1}^2 + {Z_2}^2 + \cdots + {Z_k}^2$ is called a $\chi^2$ distribution with $k$ degrees of freedom and is denoted as ${\chi_k}^2$.
     
 - If $Y \sim {\chi_k}^2$, then
     
@@ -15,7 +15,7 @@ These distributions are derived from transforming a random sample ($X_1,~X_2, \c
     
 - The shape and characteristics of the $\chi^2$ distribution are determined by the degrees of freedom.
 - Used for inference about population variance, independence tests in contingency tables, and the definitions of $t$ and $F$ distributions.
-- **Important**: If $X_1,~X_2,~\cdots,~X_n$ are random samples drawn from a normal population with mean $\mu$ and variance $\sigma^2$, then
+- **Important**: If $X_1, ~X_2, ~\cdots, ~X_n$ are random samples drawn from a normal population with mean $\mu$ and variance $\sigma^2$, then
     
     $$
     \frac{(n-1)s^2}{\sigma^2} = \frac{\sum_{i=1}^{n} (X_i - \bar{X})^2}{\sigma^2}
@@ -40,7 +40,7 @@ These distributions are derived from transforming a random sample ($X_1,~X_2, \c
 - For small samples, it is used for inference about the population mean, difference between population means, and in regression analysis.
 - **Important**: Distribution of the studentized sample mean:
     
-    If $X_1,~X_2,~\cdots,~X_n$ are random samples drawn from a normal population $N(\mu,~\sigma^2)$, then $t^* = \frac{\bar{X} - \mu}{s / \sqrt{n}}$ follows a $t$ distribution with $n-1$ degrees of freedom, i.e., $t_{n-1}$.
+    If $X_1, ~X_2, ~\cdots, ~X_n$ are random samples drawn from a normal population $N(\mu, ~\sigma^2)$, then $t^* = \frac{\bar{X} - \mu}{s / \sqrt{n}}$ follows a $t$ distribution with $n-1$ degrees of freedom, i.e., $t_{n-1}$.
     
 - $t_{\alpha;k}$: Denotes the value on the x-axis where the right tail area of a $t$ distribution with $k$ degrees of freedom is $\alpha$.
   
