@@ -145,6 +145,7 @@ a_{m1} & a_{m2} & \cdots & a_{mj} & \cdots & a_{mn}
 \end{bmatrix}
 $$
 
+
 ① $A$ is called an $m \times n$ matrix, and $m \times n$ is the size of matrix $A$.
 
 ② The horizontal rows of matrix $A$ are called **rows**, and the vertical columns are called **columns**.
