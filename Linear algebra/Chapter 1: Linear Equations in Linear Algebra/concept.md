@@ -134,16 +134,16 @@ A matrix is a rectangular array of numbers (variables, functions, etc.).
 (1) $m \times n$ Matrix
 
 $$
-A = [a_{i , j}]_{m \times n} = 
-\begin{bmatrix}
+A = [a_{i , j}]{m \times n} = \begin{bmatrix}
 a_{11} & a_{12} & \cdots & a_{1j} & \cdots & a_{1n} \\
 a_{21} & a_{22} & \cdots & a_{2j} & \cdots & a_{2n} \\
-\vdots & \vdots & & \vdots & {} & \vdots \\
+\vdots & \vdots & & \vdots & & \vdots \\
 a_{i1} & a_{i2} & \cdots & a_{ij} & \cdots & a_{in} \\
-\vdots & \vdots & & \vdots & {} & \vdots \\
+\vdots & \vdots & & \vdots & & \vdots \\
 a_{m1} & a_{m2} & \cdots & a_{mj} & \cdots & a_{mn}
 \end{bmatrix}
 $$
+
 
 ① $A$ is called an $m \times n$ matrix, and $m \times n$ is the size of matrix $A$.
 
