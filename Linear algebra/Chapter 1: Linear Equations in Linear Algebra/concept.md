@@ -151,48 +151,26 @@ $$
 
 ③ $a_{ij}$ is called the $(i ,~ j)$-th element or entry of matrix $A$.
 
-④ $A_{(i)} = 
-\begin{bmatrix}
-a_{i1} & a_{i2} & \cdots & a_{in}
-\end{bmatrix}$: The $i$-th $1 \times n$ **row** vector of matrix $A$.
+④ $A_{(i)} = \begin{bmatrix} a_{i1} & a_{i2} & \cdots & a_{in} \end{bmatrix}$: The $i$-th $1 \times n$ **row** vector of matrix $A$.
 
-⑤ $A^{(j)} = 
-\begin{bmatrix}
-a_{1j} \\
-a_{2j} \\
-\vdots \\
-a_{mj}
-\end{bmatrix}$: The $j$-th $m \times 1$ **column** vector of matrix $A$.
+⑤ $A^{(j)} = \begin{bmatrix} a_{1j} \\ a_{2j} \\ \vdots \\ a_{mj} \end{bmatrix}$: The $j$-th $m \times 1$ **column** vector of matrix $A$.
 
-⑥ $A = 
-\begin{bmatrix}
-A_{(1)} \\
-A_{(2)} \\
-\vdots \\
-A_{(m)}
-\end{bmatrix}
-=
-\begin{bmatrix}
-A^{(1)} &
-A^{(2)} &
-\cdots &
-A^{(n)}
-\end{bmatrix}$: The row vector and column vector representations of matrix $A$.
+⑥ $A = \begin{bmatrix} A_{(1)} \\ A_{(2)} \\ \vdots \\ A_{(m)} \end{bmatrix} = \begin{bmatrix} A^{(1)} & A^{(2)} & \cdots & A^{(n)} \end{bmatrix}$: The row vector and column vector representations of matrix $A$.
 
 ⑦ When $m = n$, matrix $A = [a_{ij}]_{n \times n}$ is called an $n$th-order square matrix. Additionally, $a_{11} ,~ a_{22} ,~ \cdots ,~ a_{nn}$ are called the **main diagonal elements** of $A$.
 
 (2) Set of Matrices $M_{m ,~ n} (\R) = M_{m ,~ n}$
 
-① $M_{m ,~ n} (\R) = \{ A | A = [a_{ij}]_{m \times n} ,~ a_{ij} \in \R \}$: The set of $m \times n$ matrices.
+① $M_{m , ~ n} (\R) = \{ A | A = [a_{ij}]_{m \times n} , ~ a_{ij} \in \R \}$: The set of $m \times n$ matrices.
 
-② When $m = n$, $M_{n ,~ n} = M_n$: The set of square matrices.
+② When $m = n$, $M_{n , ~ n} = M_n$: The set of square matrices.
 
 (3) Equality of Matrices
 
-When $A = [a_{ij}] ,~ B = [b_{ij}] \in M_{m ,~ n}$, if the elements of $A$ and $B$ are the same, the two matrices are **equal** and defined as follows.
+When $A = [a_{ij}] , ~ B = [b_{ij}] \in M_{m , ~ n}$, if the elements of $A$ and $B$ are the same, the two matrices are **equal** and defined as follows.
 
 $$
-A = B \leftrightarrow a_{ij} = b_{ij} ,~ \forall i ,~ j
+A = B \leftrightarrow a_{ij} = b_{ij} , ~ \forall i , ~ j
 $$
 
 (4) Zero Matrix
