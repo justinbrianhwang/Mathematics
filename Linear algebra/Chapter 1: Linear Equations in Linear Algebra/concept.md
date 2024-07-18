@@ -46,7 +46,7 @@ $$
 
 The solution to the above system of equations means the intersection of the solutions to each indeterminate equation.
 
-① If $b_i = 0$ for all $i = 1,~2,~\cdots,~m$:
+① If $b_i = 0$ for all $i = 1, ~2, ~\cdots, ~m$:
 
 $$
 \begin{cases}
@@ -63,7 +63,7 @@ If the solution is $x_1 = x_2 = \cdots = x_n = 0$, it is called a **trivial solu
 
 ⇒ It is important to find non-trivial solutions for homogeneous equations.
 
-② If $b_i \not = 0$ for all $i = 1,~2,~\cdots,~m$:
+② If $b_i \not = 0$ for all $i = 1, ~2, ~\cdots, ~m$:
 
 ⇒ Such equations are called **non-homogeneous equations**.
 
@@ -115,7 +115,7 @@ $$
 
 Express the given system of equations as follows.
 
-$S_1,~S_2,~\cdots,~S_i,~\cdots,~S_j,~\cdots,~S_n$
+$S_1, ~S_2, ~\cdots, ~S_i, ~\cdots, ~S_j, ~\cdots, ~S_n$
 
 Using the given system of equations, let's explore the operations.
 
@@ -136,12 +136,12 @@ A matrix is a rectangular array of numbers (variables, functions, etc.).
 $$
 A = [a_{i, j}]_{m \times n} = 
 \begin{bmatrix}
- a_{11} & a_{12} & \cdots & a_{1j} & \cdots & a_{1n} \\
- a_{21} & a_{22} & \cdots & a_{2j} & \cdots & a_{2n} \\
- \vdots & \vdots & & \vdots & & \vdots \\
- a_{i1} & a_{i2} & \cdots & a_{ij} & \cdots & a_{in} \\
- \vdots & \vdots & & \vdots & & \vdots \\
- a_{m1} & a_{m2} & \cdots & a_{mj} & \cdots & a_{mn}
+a_{11} & a_{12} & \cdots & a_{1j} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2j} & \cdots & a_{2n} \\
+\vdots & \vdots & & \vdots & & \vdots \\
+a_{i1} & a_{i2} & \cdots & a_{ij} & \cdots & a_{in} \\
+\vdots & \vdots & & \vdots & & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mj} & \cdots & a_{mn}
 \end{bmatrix}
 $$
 
