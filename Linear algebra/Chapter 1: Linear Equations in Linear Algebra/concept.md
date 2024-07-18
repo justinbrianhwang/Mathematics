@@ -153,6 +153,7 @@ $$
 
 ④ $A_{(i)} = \begin{bmatrix} a_{i1} & a_{i2} & \cdots & a_{in} \end{bmatrix}$: The $i$-th $1 \times n$ **row** vector of matrix $A$.
 
+
 ⑤ $A^{(j)} = \begin{bmatrix} a_{1j} \\ a_{2j} \\ \vdots \\ a_{mj} \end{bmatrix}$: The $j$-th $m \times 1$ **column** vector of matrix $A$.
 
 ⑥ $A = \begin{bmatrix} A_{(1)} \\ A_{(2)} \\ \vdots \\ A_{(m)} \end{bmatrix} = \begin{bmatrix} A^{(1)} & A^{(2)} & \cdots & A^{(n)} \end{bmatrix}$: The row vector and column vector representations of matrix $A$.
