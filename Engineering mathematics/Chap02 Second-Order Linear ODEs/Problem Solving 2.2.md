@@ -204,6 +204,7 @@
     
     $y = e^{-0.27x} (c_1 \cos \sqrt{\pi} x + c_2 \sin \sqrt{\pi} x)$
 
+
 21. $y'' + 25 y = 0$, $y(0) = 4.6$ , $y'(0) = -1.2$
 
     This is of the form $ay'' + by' + cy = 0$, which has solutions of the form $e^{\lambda x}$.
@@ -227,6 +228,7 @@
     Therefore, the solution is:
     
     $y = 4.6 \cos 5x - 0.24 \sin 5x$
+
 
 23. $y'' + y' - 6y = 0$, $y(0) = 10$, $y'(0) = 0$
     
@@ -255,6 +257,7 @@
     Therefore, the solution is:
     
     $y = 6e^{2x} + 4e^{-3x}$
+
 
 24. $4y'' - 4 y' - 3y = 0$, $y(-2) = e$, $y'(-2) = -\frac{e}{2}$
     
@@ -286,6 +289,7 @@
     
     $y = e^{-\frac{1}{2} x}$
 
+
 25. $y'' - y = 0$, $y(0) = 2$, $y'(0) = -2$
     
     This is of the form $ay'' + by' + cy = 0$, which has solutions of the form $e^{\lambda x}$.
@@ -313,6 +317,7 @@
     Therefore, the solution is:
     
     $y = 2e^{-x}$
+
 
 26. $y'' - k^2 y = 0$, $y(0) = 1$, $y'(0) = 1$
     
@@ -344,6 +349,7 @@
     
     $y = \frac{e^k (k + 1)}{2k} e^{kx} + \frac{e^k (k - 1)}{2k} e^{-kx}$
 
+
 28. $8y'' - 2y' - y = 0$, $y(0) = -0.2$, $y'(0) = -0.325$
 
     This is of the form $ay'' + by' + cy = 0$, which has solutions of the form $e^{\lambda x}$.
@@ -373,6 +379,7 @@
     Therefore, the solution is:
     
     $y = 0.3 e^{-\frac{1}{4}x} - 0.5 e^{\frac{1}{2}x}$
+
 
 30. $9y'' - 30y' + 25y = 0$, $y(0) = 3.3$, $y'(0) = 10$
     
