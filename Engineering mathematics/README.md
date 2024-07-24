@@ -8,12 +8,12 @@ This directory contains organized notes and materials for the Engineering Mathem
 
 ### **Part A. Ordinary Differential Equations**
 
-- Chap01 First-Order ODEs
-- Chap02 Second-Order Linear ODEs
-- Chap03 Higher Order Linear ODEs
+- [Chap01 First-Order ODEs](https://github.com/justinbrianhwang/Mathematics/tree/main/Engineering%20mathematics/Chap01%20First-Order%20ODEs)
+- [Chap02 Second-Order Linear ODEs](https://github.com/justinbrianhwang/Mathematics/tree/main/Engineering%20mathematics/Chap02%20Second-Order%20Linear%20ODEs)
+- [Chap03 Higher Order Linear ODEs](https://github.com/justinbrianhwang/Mathematics/tree/main/Engineering%20mathematics/Chap03%20Higher%20Order%20Linear%20ODEs)
 - Chap04 System of ODEs. Phase Plane. Qualitative Methods
 - Chap05 Series of ODEs. Special Functions
-- Chap06 Laplace Transform
+- [Chap06 Laplace Transform](https://github.com/justinbrianhwang/Mathematics/tree/main/Engineering%20mathematics/Chap06%20Laplace%20Transform)
 
 ### **Part B. Linear Algebra. Vector Calculus**
 
