@@ -11,4 +11,4 @@ This is a repository that organizes mathematical concepts necessary for engineer
 
 📒 Discrete Mathematics
 
-📔 Introduction to Statistics
+[📔 Introduction to Statistics](https://github.com/justinbrianhwang/Mathematics/tree/main/Introduction%20to%20Statistics)
