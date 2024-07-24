@@ -3,7 +3,7 @@ This is a repository that organizes mathematical concepts necessary for engineer
 
 [📘 Engineering Mathematics](https://github.com/justinbrianhwang/Mathematics/tree/main/Engineering%20mathematics)
 
-📙 Linear Algebra
+[📙 Linear Algebra](https://github.com/justinbrianhwang/Mathematics/tree/main/Linear%20algebra)
 
 📗 Probability and Statistics
 
