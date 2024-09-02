@@ -14,7 +14,7 @@ Proceed with the operation $①\times2②→②$.
 $$
 \begin{cases}
 x_1 + 5x_2 = 7 \\
-~~~~~~~~ 3x_2 = 9
+~~~~~~~~3x_2 = 9
 \end{cases}
 $$
 
