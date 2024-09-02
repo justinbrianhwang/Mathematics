@@ -6,11 +6,10 @@ A linear function is a function where the exponent of the independent variable i
 
 While linear simultaneous equations are commonly covered in middle and high school mathematics, it’s important to re-establish our approach to solving them, especially since the same methods apply when dealing with matrices. Therefore, a brief review of solving linear simultaneous equations is necessary.
 
-Consider the following system of equations:
+Consider the following system of equations
 
 $$
-(*)\cdots 
-\begin{cases}
+(*)\cdots \begin{cases}
 a_{11} x_1 +  a_{21} x_2 + \cdots + a_{n1}x_n = b_1
 \\
 a_{12} x_1 + a_{22}x_2 + \cdots + a_{n2}x_n = b_2
@@ -64,8 +63,7 @@ These are the basics of solving simultaneous equations. While the following prob
 먼저, 아래와 같은 방정식들의 모임을 우리는 선형 연립방정식이라 부른다.
 
 $$
-(*)\cdots 
-\begin{cases}
+(*)\cdots\begin{cases}
 a_{11} x_1 +  a_{21} x_2 + \cdots + a_{n1}x_n = b_1
 \\
 a_{12} x_1 + a_{22}x_2 + \cdots + a_{n2}x_n = b_2
