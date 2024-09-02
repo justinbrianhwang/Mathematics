@@ -14,7 +14,7 @@ Proceed with the operation $①\times2②→②$.
 $$
 \begin{cases}
 x_1 + 5x_2 = 7 \\
-~~~~~~~~3x_2 = 9
+3x_2 = 9
 \end{cases}
 $$
 
@@ -23,7 +23,7 @@ Comparing the above expression to the one below, we can see that the variable is
 $$
 \begin{cases}
 x_1 + 5x_2 = 7 \\
-~~~~~~~~~~x_2 = 3
+x_2 = 3
 \end{cases}
 $$ 
 
