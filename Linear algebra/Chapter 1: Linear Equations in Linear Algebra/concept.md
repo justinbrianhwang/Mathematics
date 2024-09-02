@@ -12,9 +12,12 @@ $$
 (*) \cdots 
 \begin{cases}
 a_{11} x_1 +  a_{21} x_2 + \cdots + a_{n1}x_n = b_1
-\\a_{12} x_1 + a_{22}x_2 + \cdots + a_{n2}x_n = b_2
-\\~~~\vdots ~~~~~~~~~~~~ \vdots~~~~~~~~~~~~~~~~~~~~~~~~\vdots~~~~~~~~~~~\vdots 
-\\a_{1m}x_1 + a_{2m}x_2 + \cdots + a_{nm}x_n = b_n
+\\
+a_{12} x_1 + a_{22}x_2 + \cdots + a_{n2}x_n = b_2
+\\
+~~~\vdots ~~~~~~~~~~~~ \vdots~~~~~~~~~~~~~~~~~~~~~~~~\vdots~~~~~~~~~~~\vdots 
+\\
+a_{1m}x_1 + a_{2m}x_2 + \cdots + a_{nm}x_n = b_n
 \end{cases}
 $$
 
@@ -64,9 +67,12 @@ $$
 (*) \cdots 
 \begin{cases}
 a_{11} x_1 +  a_{21} x_2 + \cdots + a_{n1}x_n = b_1
-\\a_{12} x_1 + a_{22}x_2 + \cdots + a_{n2}x_n = b_2
-\\ ~~~\vdots ~~~~~~~~~~~~ \vdots~~~~~~~~~~~~~~~~~~~~~~~~\vdots~~~~~~~~~~~\vdots 
-\\a_{1m}x_1 + a_{2m}x_2 + \cdots + a_{nm}x_n = b_n
+\\
+a_{12} x_1 + a_{22}x_2 + \cdots + a_{n2}x_n = b_2
+\\
+~~~\vdots ~~~~~~~~~~~~ \vdots~~~~~~~~~~~~~~~~~~~~~~~~\vdots~~~~~~~~~~~\vdots 
+\\
+a_{1m}x_1 + a_{2m}x_2 + \cdots + a_{nm}x_n = b_n
 \end{cases}
 $$
 
