@@ -9,7 +9,7 @@ While linear simultaneous equations are commonly covered in middle and high scho
 Consider the following system of equations:
 
 $$
-(*) \cdots 
+(*)\cdots 
 \begin{cases}
 a_{11} x_1 +  a_{21} x_2 + \cdots + a_{n1}x_n = b_1
 \\
@@ -64,7 +64,7 @@ These are the basics of solving simultaneous equations. While the following prob
 먼저, 아래와 같은 방정식들의 모임을 우리는 선형 연립방정식이라 부른다.
 
 $$
-(*) \cdots 
+(*)\cdots 
 \begin{cases}
 a_{11} x_1 +  a_{21} x_2 + \cdots + a_{n1}x_n = b_1
 \\
